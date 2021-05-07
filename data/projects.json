@@ -1,0 +1,19 @@
+[
+	{
+		"id": 0,
+		"name": "Braverman",
+		"category": "Residential",
+		"features": ["Feature 1", "Feature 2", "Feature 3"],
+		"headline": "Headline",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620327184/Newberger%20and%20Associates/braverman-06_drv3hf.jpg",
+		"portfolioImages": [
+			"v1620327179/Newberger%20and%20Associates/braverman-05_wag9we.jpg",
+			"v1620326962/Newberger%20and%20Associates/braverman-04_owlzez.jpg",
+			"v1620326963/Newberger%20and%20Associates/braverman-03_n55jti.jpg",
+			"v1620326963/Newberger%20and%20Associates/braverman-02_ynr6k8.jpg",
+			"v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg"
+		],
+        
+	}
+]

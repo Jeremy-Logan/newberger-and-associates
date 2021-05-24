@@ -2,9 +2,27 @@ import projectList from '../../data/projectList.json'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
+export async function getStaticPaths() {
+	const paths = projectList.projectList.map((project) => {
+		const slug = project.path.split('/').slice(1)
+		return { params: { slug } }
+	})
+	return { paths, fallback: false }
+}
+
+export async function getStaticProps({ params }) {
+	const currentPath = `/${params.slug.join('/')}`
+	const project = projectList.projectList.find(
+		(project) => project.path === currentPath
+	) || {
+		notfound: true,
+	}
+	return { props: { project } }
+}
+
 function Project({ project }) {
 	return (
-		<div>
+		<div>{console.log(project.heroImage)}
 			<motion.div
 				initial={{ opacity: 0.2 }}
 				animate={{ opacity: 1 }}
@@ -63,24 +81,6 @@ function Project({ project }) {
 			</motion.div>
 		</div>
 	)
-}
-
-export async function getStaticPaths() {
-	const paths = projectList.projectList.map((project) => {
-		const slug = project.path.split('/').slice(1)
-		return { params: { slug } }
-	})
-	return { paths, fallback: true }
-}
-
-export async function getStaticProps({ params }) {
-	const currentPath = `/${params.slug.join('/')}`
-	const project = projectList.projectList.find(
-		(project) => project.path === currentPath
-	) || {
-		notfound: true,
-	}
-	return { props: { project } }
 }
 
 export default Project

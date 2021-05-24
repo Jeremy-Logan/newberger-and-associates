@@ -47,7 +47,7 @@ const toggleColor = (index) => {
 			variants={variants}
 			onClick={toggle}>
 			{menuState.items.map((elements, index) => ( <>
-				<MenuItem i={index} key={index} color={toggleColor(index)} onClick={() => {toggleActive(index)}}/>{console.log(menuState)}</>
+				<MenuItem i={index} key={index} color={toggleColor(index)} onClick={() => {toggleActive(index)}}/></>
 			))}
 		</motion.ul>
 	</motion.div>)

@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Project = (props) => {
 	return (
 		<>
-			<div className='relative w-[60vw] h-[60vh] z-10 mb-36'>
+			<div className='relative w-[60vw] h-[60vh] z-10 mb-36'>{console.log(props)}
 				<Image src={props.heroImage} layout='fill' objectFit='cover' />
 			</div>
 			<div className='relative flex '>

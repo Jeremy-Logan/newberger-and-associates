@@ -1,5 +1,5 @@
 import Nav from '@components/Nav'
 
-export default function Header({ title }) {
+export default function Header() {
   return <><Nav/></>
 }

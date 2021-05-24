@@ -1,0 +1,197 @@
+{"projectList": [
+	{
+		"id": 0,
+		"title": "Braverman",
+        "path" : "/braverman",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620326962/Newberger%20and%20Associates/braverman-07_d0up7q.jpg",
+		"portfolioImages": [
+			"v1620327179/Newberger%20and%20Associates/braverman-05_wag9we.jpg",
+			"v1620326962/Newberger%20and%20Associates/braverman-04_owlzez.jpg",
+			"v1620326963/Newberger%20and%20Associates/braverman-03_n55jti.jpg",
+			"v1620326963/Newberger%20and%20Associates/braverman-02_ynr6k8.jpg",
+			"v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg"
+		]
+
+	},
+    {
+		"id": 1,
+		"title": "Brotherton",
+        "path" : "/brotherton",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620328429/Newberger%20and%20Associates/brotherton-10_ekzeph.jpg",
+		"portfolioImages": [
+			"v1620328528/Newberger%20and%20Associates/brotherton-17_gmbgfg.jpg",
+			"v1620328479/Newberger%20and%20Associates/brotherton-18_mvk4ge.jpg",
+			"v1620328477/Newberger%20and%20Associates/brotherton-14_ctea7s.jpg",
+			"v1620328446/Newberger%20and%20Associates/brotherton-12_y9d857.jpg",
+			"v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg"
+		]
+        
+	},
+	{
+		"id": 2,
+		"title": "Shia",
+        "path" : "/shia",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620327848/Newberger%20and%20Associates/shia-02_w5azfh.jpg",
+		"portfolioImages": [
+			"v1620327848/Newberger%20and%20Associates/shia-01_kzhii1.jpg",
+			"v1620327848/Newberger%20and%20Associates/shia-03_neujzq.jpg",
+			"v1620327849/Newberger%20and%20Associates/shia-04_x5zyzu.jpg",
+			"v1620327849/Newberger%20and%20Associates/shia-05_e2sn4g.jpg",
+			"v1620327853/Newberger%20and%20Associates/shia-07_qx8ulx.jpg"
+		]
+        
+	},
+	{
+		"id": 3,
+		"title": "Clapperton",
+        "path" : "/clapperton",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620327477/Newberger%20and%20Associates/clapperton-03_d1zveg.jpg",
+		"portfolioImages": [
+			"v1620327477/Newberger%20and%20Associates/clapperton-01_pdf5ft.jpg",
+			"v1620327476/Newberger%20and%20Associates/clapperton-02_gidsgh.jpg",
+			"v1620327477/Newberger%20and%20Associates/clapperton-04_ya1tcw.jpg",
+			"v1620327475/Newberger%20and%20Associates/clapperton-05_acaula.jpg",
+			"v1620327478/Newberger%20and%20Associates/clapperton-07_hyr1px.jpg"
+		]
+        
+	},
+	{
+		"id": 4,
+		"title": "Leff",
+        "path" : "/leff",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1621035702/Newberger%20and%20Associates/leff-05_sidtqx.jpg",
+		"portfolioImages": [
+			"v1621035715/Newberger%20and%20Associates/leff-03_gvybf8.jpg",
+			"v1621035715/Newberger%20and%20Associates/leff-02_z4ur8e.jpg",
+			"v1621035700/Newberger%20and%20Associates/leff-01_loituo.jpg",
+			"v1621035713/Newberger%20and%20Associates/leff-06_m5pche.jpg",
+			"v1621035708/Newberger%20and%20Associates/leff-04_cpcwlu.jpg"
+		]
+        
+	},
+	{
+		"id": 5,
+		"title": "Wegger",
+        "path" : "/wegger",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620328058/Newberger%20and%20Associates/weger-04_y0xauo.jpg",
+		"portfolioImages": [
+			"v1620328057/Newberger%20and%20Associates/weger-05_wvpgr6.jpg",
+			"v1620328060/Newberger%20and%20Associates/weger-06_l12k5d.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-01_cgh7dn.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-02_o3sdxg.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-03_ofgmkm.jpg"
+		]
+        
+	},
+	{
+		"id": 6,
+		"title": "Shuh",
+        "path" : "/shuh",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620327753/Newberger%20and%20Associates/Schuh-01_rfmolp.jpg",
+		"portfolioImages": [
+			"v1620327753/Newberger%20and%20Associates/schuh-03_rfmolp.jpg",
+			"v1620327752/Newberger%20and%20Associates/Schuh-02_nwkmxp.jpg"
+		]
+        
+	},
+	{
+		"id": 7,
+		"title": "Wolfson",
+        "path" : "/wolfson",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620330926/Newberger%20and%20Associates/wolfson-03_qlnslm.jpg",
+		"portfolioImages": [
+			"v1620330920/Newberger%20and%20Associates/wolfson-04_uva4un.jpg",
+			"v1620330919/Newberger%20and%20Associates/wolfson-07_iipjfa.jpg",
+			"v1620330918/Newberger%20and%20Associates/wolfson-06_dapdgr.jpg",
+			"v1620330919/Newberger%20and%20Associates/wolfson-07_iipjfa.jpg",
+			"v1620330930/Newberger%20and%20Associates/wolfson-10_tjrdjh.jpg"
+		]
+        
+	},
+	{
+		"id": 8,
+		"title": "Sea Arches",
+        "path" : "/sea-arches",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620328058/Newberger%20and%20Associates/weger-04_y0xauo.jpg",
+		"portfolioImages": [
+			"v1620328057/Newberger%20and%20Associates/weger-05_wvpgr6.jpg",
+			"v1620328060/Newberger%20and%20Associates/weger-06_l12k5d.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-01_cgh7dn.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-02_o3sdxg.jpg",
+			"v1620328059/Newberger%20and%20Associates/weger-03_ofgmkm.jpg"
+		]
+        
+	},
+	{
+		"id": 9,
+		"title": "Bauccio",
+        "path" : "/bauccio",
+		"category": "RESIDENTIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1621037931/Newberger%20and%20Associates/bauccio-12_typiu8.jpg",
+		"portfolioImages": [
+			"v1621037924/Newberger%20and%20Associates/bauccio-05_ms1eao.jpg",
+			"v1621037926/Newberger%20and%20Associates/bauccio-07_dxremg.jpg",
+			"v1621037930/Newberger%20and%20Associates/bauccio-09_bxzssl.jpg",
+			"v1621037929/Newberger%20and%20Associates/bauccio-08_nhw064.jpg",
+			"v1621037932/Newberger%20and%20Associates/bauccio-10_xeqp8c.jpg"
+		]
+        
+	},
+	{
+		"id": 10,
+		"title": "Baxter",
+        "path" : "/baxter",
+		"category": "COMMERCIAL",
+		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"headline": "HEADLINE",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"heroImage": "v1620324755/Newberger%20and%20Associates/baxter-winery-10_mbxyst.jpg",
+		"portfolioImages": [
+			"v1620324762/Newberger%20and%20Associates/baxter-winery-07_vbauvi.jpg",
+			"v1620324738/Newberger%20and%20Associates/baxter-winery-05_pgwsgb.jpg",
+			"v1620324743/Newberger%20and%20Associates/baxter-winery-04_mk1w5p.jpg",
+			"v1620324742/Newberger%20and%20Associates/baxter-winery-03_zdcfmh.jpg",
+			"v1620324719/Newberger%20and%20Associates/baxter-winery-01_mznmx6.jpg"
+		]
+        
+	}
+]}

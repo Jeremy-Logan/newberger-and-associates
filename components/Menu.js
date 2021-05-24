@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { MenuItem } from './menuItem'
+import { MenuItem } from './MenuItem'
 import { useState } from 'react'
 
 

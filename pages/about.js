@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export default function About() {
 	return (
 		<>
-			<div>
+			<div className='min-h-screen'>
 				<Head>
 					<title>Newberger & Associates | About Us</title>
 					<link rel='icon' href='/favicon.ico' />
@@ -50,17 +50,35 @@ export default function About() {
 						</motion.div>
 					</motion.div>
 					<div className='h-96'></div>
-					<div className='h-96 mx-[20vw] font-bold font-serif'>
-						<h3 className='text-gray-500 text-3xl mb-6'>
-							Newberger & Associates
+					<div className='h-auto mx-[25vw] mb-24 font-bold font-serif'>
+						<h3 className='text-gray-500 text-5xl mb-8'>
+							Welcome to Newberger & Associates
 						</h3>
-						<h3 className=' text-3xl text-[#414141]'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua.
-						</h3>
+						<p className=' text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
+							Led by founder Todd Newberger, we are a design
+							studio committed to innovative, sustainable
+							architecture that elevates the human experience
+							while celebrating the natural environment. <br />
+							<br />
+							Our integrated philosophy is founded on the
+							relationship between the structure and the land it
+							occupies, utilizing the unique characteristics
+							offered by the site.
+							<br />
+							<br />
+							Our 20+ years of coastal planning experience has put
+							us in the unique position of knowing not only how to
+							design for your coastal space, but also how to
+							navigate the unique challenges coastal building can
+							present. Our expertise is perfectly suited to
+							guiding you through the process of negotiating
+							permits, bluff erosion control, coastal garden
+							planning.
+						</p>
 					</div>
+					<div>
 					
+					</div>
 				</main>
 			</div>{' '}
 		</>

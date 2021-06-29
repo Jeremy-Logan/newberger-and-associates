@@ -101,7 +101,7 @@ const ProjectFlipped = (props) => {
 }
 
 export const FrontPageProjects = (props) => {
-	const contentRows = (props.projectList || []).slice(0, 2).map((r, i) => {
+	const contentRows = (props.projectList || []).slice(0, 3).map((r, i) => {
 		return i % 2 === 0 ? (
 			<Project key={i} {...r} />
 		) : (

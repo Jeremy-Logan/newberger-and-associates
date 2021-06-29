@@ -7,7 +7,7 @@ const variants = {
 		transition: { type: 'spring', mass: 0.3, staggerChildren: 0.07, delayChildren: 0.2 },
 	},
 	closed: {
-		translateY: 600,
+		translateY: 800,
 opacity: 0,
 		transition: {   delay: 0.2, staggerChildren: 0.05, delayChildren: 0 },
 	},

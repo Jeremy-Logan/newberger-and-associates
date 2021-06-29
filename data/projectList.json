@@ -1,12 +1,12 @@
 {"projectList": [
 	{
 		"id": 0,
-		"title": "Braverman",
+		"title": "Expressive",
         "path" : "/braverman",
 		"category": "RESIDENTIAL",
-		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
-		"headline": "HEADLINE",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"features": ["CONCRETE", "CHARRED CEDAR", "METAL", "GLASS"],
+		"headline": "MODERN JAPANESE BRUTALISM",
+		"description": "Brutalist architecture is characterized by rigid geometry, raw poured concrete and blocky lines. The Braverman residence borrows from this style but softens it around the edges creating a home that is meant to be lived in and enjoyed, while maintaining the austere permanence of the genre. The man made elements contrast and compliment the natural environment, the windows allow nature in, charred cedar accents the smooth concrete warming up the living space while altogether they create a comfortable and unique home.",
 		"heroImage": "v1620326962/Newberger%20and%20Associates/braverman-07_d0up7q.jpg",
 		"portfolioImages": [
 			"v1620327179/Newberger%20and%20Associates/braverman-05_wag9we.jpg",
@@ -19,12 +19,12 @@
 	},
     {
 		"id": 1,
-		"title": "Brotherton",
+		"title": "Sweeping",
         "path" : "/brotherton",
 		"category": "RESIDENTIAL",
-		"features": ["FEATURE 1", "FEATURE 2", "FEATURE 3"],
+		"features": ["WOOD", "CONCRETE", "GLASS"],
 		"headline": "HEADLINE",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"description": "The Brotherton residence fully embraces Northern California coastal living. Positioned to make the most of the stunning view of the Pacific, this home sweeps across the property, mimicking the natural curve of the ocean shore. Warm wood, straight lines and curving concrete are woven together to create a home that compliments the rolling hills and rugged coast line. It is truly a home in and of the land.",
 		"heroImage": "v1620328429/Newberger%20and%20Associates/brotherton-10_ekzeph.jpg",
 		"portfolioImages": [
 			"v1620328528/Newberger%20and%20Associates/brotherton-17_gmbgfg.jpg",

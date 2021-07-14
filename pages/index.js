@@ -34,7 +34,7 @@ export default function Home() {
 						<motion.h2
 							initial={{ opacity: 0.2, translateX: -300 }}
 							animate={{ opacity: 1, translateX: 0 }}
-							className='font-serif text-8xl font-bold ml-8 w-3/4'>
+							className='font-serif xl:text-7xl lg:text-5xl font-bold ml-8 w-3/4'>
 							Exploring new directions. Grounded in tradition.
 						</motion.h2>
 					</div>
@@ -52,13 +52,13 @@ export default function Home() {
 				</motion.div>
 				<div className='h-96'></div>
 				<div className='h-96 mx-[25vw] font-bold font-serif'>
-					<h3 className='text-gray-500 text-5xl mb-16'>
+					<h3 className='text-gray-500 text-4xl mb-8'>
 						Newberger & Associates
 					</h3>
-					<h3 className=' text-2xl text-[#414141] leading-relaxed font-sans font-normal mb-6'>
-						Innovative, Sustainable Design:{' '}
+					<h3 className=' text-3xl text-[#414141] leading-relaxed font-sans font-normal mb-6 tracking-wider'>
+						INNOVATIVE, SUSTAINABLE DESIGN:{' '}
 					</h3>{' '}
-					<h3 className=' text-xl text-[#414141] leading-relaxed font-sans font-normal'>
+					<h3 className=' text-xl text-[#414141] leading-relaxed tracking-wide font-sans font-normal'>
 						We are committed to design solutions that elevate the
 						human experience while celebrating the natural
 						environment.

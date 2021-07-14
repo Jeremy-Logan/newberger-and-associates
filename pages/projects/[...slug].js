@@ -1,5 +1,13 @@
+import { useEffect } from 'react'
 import projectList from '../../data/projectList.json'
-import { motion } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import {
+	motion,
+	useViewportScroll,
+	useTransform,
+	useSpring,
+	useAnimation,
+} from 'framer-motion'
 import Image from 'next/image'
 
 export async function getStaticPaths() {
@@ -19,10 +27,33 @@ export async function getStaticProps({ params }) {
 	}
 	return { props: { project } }
 }
+const SlideIn = ({ children, originX, originY }) => {
+	const controls = useAnimation()
+	const [ref, inView] = useInView()
+
+	useEffect(() => {
+		inView ? controls.start('visible') : null
+	}, [controls, inView])
+
+	return (
+		<motion.div
+			ref={ref}
+			animate={controls}
+			initial='hidden'
+			transition={{ type: 'spring', duration: 1, delay: 0.5 }}
+			variants={{
+				visible: { opacity: 1, x: 0, y: 0 },
+				hidden: { opacity: 0, x: originX, y: originY },
+			}}>
+			{children}
+		</motion.div>
+	)
+}
 
 function Project({ project }) {
 	return (
-		<div>{console.log(project.heroImage)}
+		<div>
+			{console.log(project.heroImage)}
 			<motion.div
 				initial={{ opacity: 0.2 }}
 				animate={{ opacity: 1 }}
@@ -38,12 +69,14 @@ function Project({ project }) {
 					<motion.h1
 						initial={{ opacity: 0.2, translateY: -300 }}
 						animate={{ opacity: 1, translateY: 0 }}
+						transition={{ duration: 0.5, delay: 0.3 }}
 						className='font-serif text-4xl font-bold mb-8'>
 						Newberger & Associates
 					</motion.h1>
 					<motion.h2
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
+						transition={{ duration: 0.5, delay: 0.3 }}
 						className='font-serif text-8xl font-bold ml-8'>
 						{project.title}
 					</motion.h2>
@@ -51,7 +84,7 @@ function Project({ project }) {
 				<motion.div
 					initial={{ opacity: 0.2, translateX: 300 }}
 					animate={{ opacity: 1, translateX: 0 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.5, delay: 0.3 }}
 					className='absolute h-[50vh] w-[60vw] top-80 right-0 bg-[]'>
 					<Image
 						src={project.portfolioImages[0]}
@@ -68,17 +101,42 @@ function Project({ project }) {
 					{project.description}
 				</p>
 			</div>
-			<motion.div
-				initial={{ opacity: 0.2, translateX: 300 }}
-				animate={{ opacity: 1, translateX: 0 }}
-				transition={{ duration: 0.5 }}
-				className=' h-[60vh] w-[40vw] relative mx-[20vw] mt-24'>
-				<Image
-					src={project.portfolioImages[1]}
-					layout='fill'
-					objectFit='cover'
-				/>
-			</motion.div>
+			<SlideIn originY={200}>
+				<div className=' h-[60vh] w-[40vw] relative mx-[20vw] my-24'>
+					<Image
+						src={project.portfolioImages[1]}
+						layout='fill'
+						objectFit='cover'
+					/>
+				</div>
+			</SlideIn>
+			<SlideIn originY={200}>
+				<div className=' h-[60vh] w-[40vw] relative mx-[40vw] my-24'>
+					<Image
+						src={project.portfolioImages[2]}
+						layout='fill'
+						objectFit='cover'
+					/>
+				</div>
+			</SlideIn>
+			<SlideIn originY={200}>
+				<div className=' h-[60vh] w-[40vw] relative mx-[20vw] my-24'>
+					<Image
+						src={project.portfolioImages[3]}
+						layout='fill'
+						objectFit='cover'
+					/>
+				</div>
+			</SlideIn>
+			<SlideIn originY={200}>
+				<div className=' h-[60vh] w-[40vw] relative mx-[40vw] my-24'>
+					<Image
+						src={project.portfolioImages[4]}
+						layout='fill'
+						objectFit='cover'
+					/>
+				</div>
+			</SlideIn>
 		</div>
 	)
 }

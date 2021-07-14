@@ -40,7 +40,7 @@ const SlideIn = ({ children, originX, originY }) => {
 			ref={ref}
 			animate={controls}
 			initial='hidden'
-			transition={{ type: 'spring', duration: 1, delay: 0.5 }}
+			transition={{ type: 'spring', duration: 1, delay: 0.3 }}
 			variants={{
 				visible: { opacity: 1, x: 0, y: 0 },
 				hidden: { opacity: 0, x: originX, y: originY },

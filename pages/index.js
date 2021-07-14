@@ -34,8 +34,8 @@ export default function Home() {
 						<motion.h2
 							initial={{ opacity: 0.2, translateX: -300 }}
 							animate={{ opacity: 1, translateX: 0 }}
-							className='font-serif xl:text-7xl lg:text-5xl font-bold ml-8 w-3/4'>
-							Exploring new directions. Grounded in tradition.
+							className='font-serif xl:text-6xl lg:text-5xl font-bold ml-8 w-7/12'>
+							<h2 className='leading-tight'>Exploring new directions. <br/> Grounded in tradition.</h2>
 						</motion.h2>
 					</div>
 					<motion.div

@@ -54,7 +54,6 @@ const SlideIn = ({ children, originX, originY }) => {
 function Project({ project }) {
 	return (
 		<div>
-			{console.log(project.heroImage)}
 			<motion.div
 				initial={{ opacity: 0.2 }}
 				animate={{ opacity: 1 }}
@@ -67,13 +66,15 @@ function Project({ project }) {
 				/>
 
 				<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white cursor-pointer'>
-					<Link href='/'><motion.h1
-						initial={{ opacity: 0.2, translateY: -300 }}
-						animate={{ opacity: 1, translateY: 0 }}
-						transition={{ duration: 0.5, delay: 0.3 }}
-						className='font-serif text-4xl font-bold mb-8'>
-						Newberger & Associates
-					</motion.h1></Link>
+					<Link href='/'>
+						<motion.h1
+							initial={{ opacity: 0.2, translateY: -300 }}
+							animate={{ opacity: 1, translateY: 0 }}
+							transition={{ duration: 0.5, delay: 0.3 }}
+							className='font-serif text-4xl font-bold mb-8'>
+							Newberger & Associates
+						</motion.h1>
+					</Link>
 					<motion.h2
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
@@ -94,7 +95,7 @@ function Project({ project }) {
 					/>
 				</motion.div>
 			</motion.div>
-			<div className='mx-[20vw] mt-96'>
+			<div className='mx-[20vw] mt-64'>
 				<h3 className='text-lg font-bold text-yellow-600'>
 					{project.headline}
 				</h3>
@@ -102,42 +103,60 @@ function Project({ project }) {
 					{project.description}
 				</p>
 			</div>
-			<SlideIn originY={200}>
-				<div className=' h-[60vh] w-[40vw] relative mx-[20vw] my-24'>
-					<Image
-						src={project.portfolioImages[1]}
-						layout='fill'
-						objectFit='cover'
-					/>
-				</div>
-			</SlideIn>
-			<SlideIn originY={200}>
-				<div className=' h-[60vh] w-[40vw] relative mx-[40vw] my-24'>
-					<Image
-						src={project.portfolioImages[2]}
-						layout='fill'
-						objectFit='cover'
-					/>
-				</div>
-			</SlideIn>
-			<SlideIn originY={200}>
-				<div className=' h-[60vh] w-[40vw] relative mx-[20vw] my-24'>
-					<Image
-						src={project.portfolioImages[3]}
-						layout='fill'
-						objectFit='cover'
-					/>
-				</div>
-			</SlideIn>
-			<SlideIn originY={200}>
-				<div className=' h-[60vh] w-[40vw] relative mx-[40vw] my-24'>
-					<Image
-						src={project.portfolioImages[4]}
-						layout='fill'
-						objectFit='cover'
-					/>
-				</div>
-			</SlideIn>
+			<div className='grid grid-cols-2 grid-rows-8 mt-24'>
+				<SlideIn originX={-200}>
+					<div className=' h-[60vh] relative row-span-2 '>
+						<Image
+							src={project.portfolioImages[1]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								't_placeholder' + project.portfolioImages[1]
+							}
+						/>
+					</div>
+				</SlideIn>
+				<SlideIn originX={200}>
+					<div className=' h-[60vh] relative row-span-2 mt-[30vh]'>
+						<Image
+							src={project.portfolioImages[2]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								't_placeholder' + project.portfolioImages[2]
+							}
+						/>
+					</div>
+				</SlideIn>
+				<SlideIn originX={-200}>
+					<div className=' h-[60vh] relative row-span-2 mt-[-30vh]'>
+						<Image
+							src={project.portfolioImages[3]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								't_placeholder' + project.portfolioImages[3]
+							}
+						/>
+					</div>
+				</SlideIn>
+				<SlideIn originX={200}>
+					<div className=' h-[60vh] relative row-span-2 row-start-5'>
+						<Image
+							src={project.portfolioImages[4]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								't_placeholder' + project.portfolioImages[4]
+							}
+						/>
+					</div>
+				</SlideIn>
+			</div>
 		</div>
 	)
 }

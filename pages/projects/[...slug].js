@@ -9,6 +9,7 @@ import {
 	useAnimation,
 } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export async function getStaticPaths() {
 	const paths = projectList.projectList.map((project) => {
@@ -57,22 +58,22 @@ function Project({ project }) {
 			<motion.div
 				initial={{ opacity: 0.2 }}
 				animate={{ opacity: 1 }}
-				className='relative h-[60vh] z-0 bg-[#322121]'>
+				className='relative h-[60vh] z-0 bg-[#0b0b13]'>
 				<Image
 					src={project.heroImage}
 					layout='fill'
 					objectFit='cover'
-					className='opacity-70'
+					className='opacity-50'
 				/>
 
-				<div className='absolute pt-24 pl-24 w-[70vw] z-10 text-white'>
-					<motion.h1
+				<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white cursor-pointer'>
+					<Link href='/'><motion.h1
 						initial={{ opacity: 0.2, translateY: -300 }}
 						animate={{ opacity: 1, translateY: 0 }}
 						transition={{ duration: 0.5, delay: 0.3 }}
 						className='font-serif text-4xl font-bold mb-8'>
 						Newberger & Associates
-					</motion.h1>
+					</motion.h1></Link>
 					<motion.h2
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
@@ -85,7 +86,7 @@ function Project({ project }) {
 					initial={{ opacity: 0.2, translateX: 300 }}
 					animate={{ opacity: 1, translateX: 0 }}
 					transition={{ duration: 0.5, delay: 0.3 }}
-					className='absolute h-[50vh] w-[60vw] top-80 right-0 bg-[]'>
+					className='absolute h-[50vh] w-[60vw] top-80 right-0 '>
 					<Image
 						src={project.portfolioImages[0]}
 						layout='fill'
@@ -97,7 +98,7 @@ function Project({ project }) {
 				<h3 className='text-lg font-bold text-yellow-600'>
 					{project.headline}
 				</h3>
-				<p className='font-serif text-lg font-semibold'>
+				<p className='font-serif text-lg font-semibold leading-loose mt-6'>
 					{project.description}
 				</p>
 			</div>

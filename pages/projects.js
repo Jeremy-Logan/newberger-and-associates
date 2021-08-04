@@ -18,6 +18,8 @@ export default function Projects() {
 						layout='fill'
 						objectFit='cover'
 						className='opacity-70'
+						placeholder='blur'
+						blurDataURL='t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
 					/>
 
 					<div className='absolute pt-24 pl-24 w-[70vw] z-10 text-white'>
@@ -25,7 +27,7 @@ export default function Projects() {
 							Newberger & Associates
 						</motion.h1>
 						<motion.h2 initial={{opacity: 0.2, translateX: -300 }} animate={{opacity: 1, translateX: 0}} className='font-serif text-8xl font-bold ml-8'>
-							Selected Projects
+							Featured Projects
 						</motion.h2>
 					</div>
 					<motion.div initial={{opacity: 0.2, translateX: 300}} animate={{opacity: 1, translateX: 0}} transition={{  duration: 0.5}} className='absolute h-[70vh] w-[40vw] top-40 right-48 bg-[]'>
@@ -38,7 +40,7 @@ export default function Projects() {
 				</motion.div>
                 <div className='mx-[10vw] mb-24 '>
                 <h3 className='text-6xl font-serif font-bold text-gray-500'>Newberger & Associates</h3>
-                <h4 className='text-6xl font-serif font-bold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4></div>
+                <h4 className='text-3xl font-serif  leading-relaxed mt-8'>Our philosophy is founded on the relationship between the structure and the land it occupies. We focus on the unique elements of the environment while also considering the sustainable nature of the building itself. Our expertise is perfectly suited to guiding you through this process and finding the most natural fit for your needs.</h4></div>
     <ProjectsPageProjects {...projectList}/></main>
     </>)
 }

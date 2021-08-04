@@ -6,10 +6,9 @@ import Head from 'next/head'
 function Application({ Component, pageProps }) {
 	return (
 		<>
-    
 			<Header />
 			<Component {...pageProps} />
-      <Footer />
+			<Footer />
 		</>
 	)
 }

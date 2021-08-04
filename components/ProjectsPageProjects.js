@@ -29,6 +29,8 @@ const Project = (props) => {
 						src={props.portfolioImages[0]}
 						layout='fill'
 						objectFit='cover'
+						placeholder='blur'
+						blurDataURL={'t_placeholder' + props.portfolioImages[0] }
 					/>
 				</div>
 			</div><div className='relative'><div className='absolute right-24 h-36 z-30 bottom[-30]'>
@@ -58,6 +60,8 @@ const ProjectFlipped = (props) => {
 						src={props.portfolioImages[0]}
 						layout='fill'
 						objectFit='cover'
+						placeholder='blur'
+						blurDataURL={'t_placeholder' + props.portfolioImages[0] }
 					/>
 				</div>
 				<div className='w-1/3 flex justify-center mt-24'>

@@ -19,12 +19,14 @@ export default function Home() {
 					className='relative h-[60vh] z-0 bg-[#322121]'>
 					<Image
 						src='v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
+						blurDataURL='t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
 						layout='fill'
 						objectFit='cover'
 						className='opacity-70'
+						placeholder='blur'
 					/>
 
-					<div className='absolute pt-24 pl-24 w-[70vw] z-10 text-white'>
+					<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white'>
 						<motion.h1
 							initial={{ opacity: 0.2, translateY: -300 }}
 							animate={{ opacity: 1, translateY: 0 }}
@@ -47,6 +49,8 @@ export default function Home() {
 							src='v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 							layout='fill'
 							objectFit='cover'
+							placeholder='blur'
+							blurDataURL='t_placeholder/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 						/>
 					</motion.div>
 				</motion.div>

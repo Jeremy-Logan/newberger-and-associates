@@ -58,8 +58,7 @@ export default function About() {
 							Led by founder Todd Newberger, we are a design
 							studio committed to innovative, sustainable
 							architecture that elevates the human experience
-							while celebrating the natural environment. <br />
-							<br />
+							while celebrating the natural environment.
 							Our integrated philosophy is founded on the
 							relationship between the structure and the land it
 							occupies, utilizing the unique characteristics

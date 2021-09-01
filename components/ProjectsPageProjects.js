@@ -30,7 +30,7 @@ const Project = (props) => {
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
-						blurDataURL={'t_placeholder' + props.portfolioImages[0] }
+						blurDataURL={'t_placeholder/' + props.portfolioImages[0] }
 					/>
 				</div>
 			</div><div className='relative'><div className='absolute right-24 h-36 z-30 bottom[-30]'>

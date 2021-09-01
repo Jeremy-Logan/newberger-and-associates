@@ -80,6 +80,8 @@ export default function About() {
 									src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
 									layout='fill'
 									objectFit='contain'
+									placeholder='blur'
+							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
 								/>
 							</div>
 							<div className=' ml-12 w-screen md:w-2/3'>
@@ -125,6 +127,40 @@ export default function About() {
 									Permanente.
 								</p>
 							</div>
+						</div>
+						<div className='grid grid-flow-col mt-24'>
+						<div className='relative h-96'>
+								<Image
+									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
+									layout='fill'
+									objectFit='contain'
+									placeholder='blur'
+							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
+								/></div>
+								<div className='relative h-96'>
+								<Image
+									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
+									layout='fill'
+									objectFit='contain'
+									placeholder='blur'
+							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
+								/></div>
+								<div className='relative h-96'>
+								<Image
+									src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
+									layout='fill'
+									objectFit='contain'
+									placeholder='blur'
+							blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
+								/></div>
+								<div className='relative h-96'>
+								<Image
+									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
+									layout='fill'
+									objectFit='contain'
+									placeholder='blur'
+							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
+								/></div>
 						</div>
 					</div>
 					<div></div>

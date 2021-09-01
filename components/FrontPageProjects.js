@@ -119,7 +119,7 @@ const Project = (props) => {
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
-						blurDataURL={'t_placeholder' + props.heroImage}
+						blurDataURL={'t_placeholder/' + props.heroImage}
 					/>
 				</div>
 			</SlideIn>
@@ -162,7 +162,7 @@ const Project = (props) => {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + props.portfolioImages[0]
+								't_placeholder/' + props.portfolioImages[0]
 							}
 						/>
 					</div>
@@ -174,7 +174,7 @@ const Project = (props) => {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + props.portfolioImages[2]
+								't_placeholder/' + props.portfolioImages[2]
 							}
 						/>
 					</div>
@@ -215,7 +215,7 @@ const ProjectFlipped = (props) => {
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
-							blurDataURL={'t_placeholder' + props.heroImage}
+							blurDataURL={'t_placeholder/' + props.heroImage}
 						/>
 					</div>
 				</SlideIn>
@@ -230,7 +230,7 @@ const ProjectFlipped = (props) => {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + props.portfolioImages[0]
+								't_placeholder/' + props.portfolioImages[0]
 							}
 						/>
 					</div>
@@ -260,7 +260,7 @@ const ProjectFlipped = (props) => {
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
-							blurDataURL={'t_placeholder' + props.heroImage}
+							blurDataURL={'t_placeholder/' + props.heroImage}
 						/>
 					</div>
 				</SlideIn>

@@ -50,7 +50,7 @@ export default function Home() {
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
-							blurDataURL='t_placeholder/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
+							blurDataURL='t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 						/>
 					</motion.div>
 				</motion.div>

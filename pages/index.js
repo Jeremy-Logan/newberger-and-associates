@@ -26,25 +26,26 @@ export default function Home() {
 						placeholder='blur'
 					/>
 
-					<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white'>
+					<div className='absolute pt-24 pl-[10vw] w-[70vw] z-10 text-white'>
 						<motion.h1
 							initial={{ opacity: 0.2, translateY: -300 }}
 							animate={{ opacity: 1, translateY: 0 }}
-							className='font-serif text-4xl font-bold mb-8'>
+							className='font-serif lg:text-4xl text-2xl font-bold mb-8'>
 							Newberger & Associates
 						</motion.h1>
-						<motion.h2
+						<motion.div
 							initial={{ opacity: 0.2, translateX: -300 }}
 							animate={{ opacity: 1, translateX: 0 }}
-							className='font-serif xl:text-6xl lg:text-5xl font-bold ml-8 w-7/12'>
-							<h2 className='leading-tight'>Exploring new directions. <br/> Grounded in tradition.</h2>
-						</motion.h2>
+							className='font-serif 2xl:text-6xl xl:text-5xl lg:text-4xl text-2xl font-bold ml-8 lg:w-6/12 leading-tight'>
+							<h2 >Exploring new directions. <br/> Grounded in tradition.</h2>
+						</motion.div>
 					</div>
+					<div >
 					<motion.div
 						initial={{ opacity: 0.2, translateX: 300 }}
 						animate={{ opacity: 1, translateX: 0 }}
 						transition={{ duration: 0.5 }}
-						className='absolute h-[70vh] w-[40vw] top-40 right-48 bg-[]'>
+						className='absolute h-[50vh] w-[90vw] left-[5vw] right-[5vw] md:left-[50vw] top-[400px] md:h-[50vh] md:w-[40vw] md:top-60 xl:h-[70vh] '>
 						<Image
 							src='v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 							layout='fill'
@@ -52,7 +53,7 @@ export default function Home() {
 							placeholder='blur'
 							blurDataURL='t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 						/>
-					</motion.div>
+					</motion.div></div>
 				</motion.div>
 				<div className='h-96'></div>
 				<div className='h-96 mx-[25vw] font-bold font-serif'>
@@ -60,7 +61,7 @@ export default function Home() {
 						Newberger & Associates
 					</h3>
 					<h3 className=' text-3xl text-[#414141] leading-relaxed font-sans font-normal mb-6 tracking-wider'>
-						INNOVATIVE, SUSTAINABLE DESIGN:{' '}
+						INNOVATIVE, SUSTAINABLE DESIGN{' '}
 					</h3>{' '}
 					<h3 className=' text-xl text-[#414141] leading-relaxed tracking-wide font-sans font-normal'>
 						We are committed to design solutions that elevate the

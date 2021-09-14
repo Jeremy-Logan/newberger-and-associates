@@ -4,11 +4,11 @@ import Link from 'next/link'
 const Project = (props) => {
 	return (
 		<>
-			<div className='flex justify-center relative'>
+			<div className='flex justify-center relative mt-36'>
 				
 				<div className='w-1/3 flex justify-center mt-24 z-10'>
-					<div className='text-left'>
-                    <h2 className='text-5xl font-serif font-bold mb-8 text-[#EE9207]'>{props.title}</h2>
+					<div className='text-left'><Link href={`./projects${props.path}`} passHref>
+                    <h2 className='text-5xl font-serif font-bold mb-8 text-[#EE9207] cursor-pointer'>{props.title}</h2></Link>
 						<h3 className='text-md font-semibold tracking-wider mb-4'>
 							{props.category}
 						</h3>
@@ -24,26 +24,16 @@ const Project = (props) => {
 						</Link>
 					</div>
 				</div>
-				<div className='relative w-1/3 h-[70vh] mb-36 z-20'>
+				<div className='relative w-1/3 h-[70vh] mb-36 z-20 cursor-pointer'><Link href={`./projects${props.path}`} passHref>
 					<Image
 						src={props.portfolioImages[0]}
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
-						blurDataURL={'t_placeholder/' + props.portfolioImages[0] }
-					/>
+						blurDataURL={'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + props.portfolioImages[0] }
+					/></Link>
 				</div>
-			</div><div className='relative'><div className='absolute right-24 h-36 z-30 bottom[-30]'>
-				<svg height='100' width='40vw'>
-					<line
-						x1='0'
-						y1='0'
-						x2='40vw'
-						y2='0'
-						className='stroke-[5px] stroke-current text-gray-300'
-					/>
-				</svg>
-			</div><div className='absolute h-[100vh] bg-[#254A5A] bottom-[-70vh] w-screen z-0'></div></div>
+			</div>
 
 		</>
 	)
@@ -52,22 +42,24 @@ const Project = (props) => {
 const ProjectFlipped = (props) => {
 	return (
 		<>
-			<div className='flex justify-center relative mt-[20vh]'>
+			<div className='flex justify-center relative pt-36 bg-[#254A5A]'>
             
             
-				<div className='relative w-1/3 h-[70vh] mb-36 z-10'>
+				<div className='relative w-1/3 h-[70vh] mb-36 z-10 cursor-pointer'>
+				<Link href={`./projects${props.path}`} passHref>
 					<Image
 						src={props.portfolioImages[0]}
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
-						blurDataURL={'t_placeholder' + props.portfolioImages[0] }
-					/>
+						blurDataURL={'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + props.portfolioImages[0] }
+					/></Link>
 				</div>
 				<div className='w-1/3 flex justify-center mt-24'>
                 
 					<div className='text-left'>
-                    <h2 className='text-5xl font-serif font-bold mb-8 text-[#EE9207]'>{props.title}</h2>
+					<Link href={`./projects${props.path}`} passHref>
+                    <h2 className='text-5xl font-serif font-bold mb-8 text-[#EE9207] cursor-pointer'>{props.title}</h2></Link>
 						<h3 className='text-md font-semibold tracking-wider mb-4 text-white'>
 							{props.category}
 						</h3>
@@ -83,17 +75,7 @@ const ProjectFlipped = (props) => {
 						</Link>
 					</div>
 				</div>
-			</div>			<div className='flex justify-start ml-24 h-36 '>
-				<svg height='100' width='40vw'>
-					<line
-						x1='0'
-						y1='0'
-						x2='40vw'
-						y2='0'
-						className='stroke-[5px] stroke-current text-gray-500'
-					/>
-				</svg>
-			</div>
+			</div>			
 		</>
 	)
 }

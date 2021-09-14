@@ -36,8 +36,8 @@ export default function Contact() {
 						id='contact'
 						className='p-16 flex flex-col bg-white opacity-100 z-20 drop-shadow-xl w-screen xl:w-[30vw] lg:w-[50vw] md:w-[70vw]'>
 						
-						<h2 className='text-5xl font-serif font-bold text-center mb-12'>
-							Contact Us!
+						<h2 className='lg:text-3xl text-2xl font-serif font-bold text-center mb-12'>
+							Interested in working together?<br/> Tell us a bit about your project.
 						</h2>
 						<input type='hidden' name='form-name' value='contact' />
 						<div className={'flex '}>
@@ -116,7 +116,7 @@ export default function Contact() {
 											name='question'
 											id='question'
 											rows='3'
-											placeholder='Say something'
+											placeholder='Project Details'
 											className={
 												'border-solid border-2 rounded border-gray-600 w-full my-2 pl-2'
 											}

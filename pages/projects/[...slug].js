@@ -66,15 +66,15 @@ function Project({ project }) {
 				/>
 
 				<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white cursor-pointer'>
-					<Link href='/'>
+					
 						<motion.h1
 							initial={{ opacity: 0.2, translateY: -300 }}
 							animate={{ opacity: 1, translateY: 0 }}
 							transition={{ duration: 0.5, delay: 0.3 }}
 							className='font-serif text-4xl font-bold mb-8'>
-							Newberger & Associates
+							<Link href='/'>Newberger & Associates</Link>
 						</motion.h1>
-					</Link>
+					
 					<motion.h2
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
@@ -112,7 +112,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + project.portfolioImages[1]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[1]
 							}
 						/>
 					</div>
@@ -125,7 +125,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + project.portfolioImages[2]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[2]
 							}
 						/>
 					</div>
@@ -138,7 +138,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + project.portfolioImages[3]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[3]
 							}
 						/>
 					</div>
@@ -151,7 +151,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								't_placeholder' + project.portfolioImages[4]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[4]
 							}
 						/>
 					</div>

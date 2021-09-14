@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export default function About() {
 	return (
@@ -28,7 +29,7 @@ export default function About() {
 								initial={{ opacity: 0.2, translateY: -300 }}
 								animate={{ opacity: 1, translateY: 0 }}
 								className='font-serif text-4xl font-bold mb-8'>
-								Newberger & Associates
+								<Link href='/'>Newberger & Associates</Link>
 							</motion.h1>
 							<motion.h2
 								initial={{ opacity: 0.2, translateX: -300 }}
@@ -74,16 +75,18 @@ export default function About() {
 							skilled team of professionals and delivering a
 							successful project within budget and schedule.
 						</p>
-						<div className='flex flex-col md:flex-row'>
-							<div className='relative w-screen md:w-1/3  '>
+						<div className='flex flex-col md:flex-row '>
+						<div className='grid grid-rows-2 grid-cols-1 w-screen md:w-1/3 content-start'>
+							<div className='relative'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
 									layout='fill'
 									objectFit='contain'
 									placeholder='blur'
 							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
+							
 								/>
-							</div>
+							</div></div>
 							<div className=' ml-12 w-screen md:w-2/3'>
 								<h3 className='text-4xl mb-8'>
 									Todd Newberger
@@ -128,36 +131,36 @@ export default function About() {
 								</p>
 							</div>
 						</div>
-						<div className='grid grid-flow-col mt-24'>
-						<div className='relative h-96'>
+						<div className='grid md:grid-cols-4 grid-cols-2 mt-24 h-[500px] gap-4'>
+						<div className='relative'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 									layout='fill'
-									objectFit='contain'
+									objectFit='cover'
 									placeholder='blur'
 							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 								/></div>
-								<div className='relative h-96'>
+								<div className='relative'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 									layout='fill'
-									objectFit='contain'
+									objectFit='cover'
 									placeholder='blur'
 							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 								/></div>
-								<div className='relative h-96'>
+								<div className='relative'>
 								<Image
 									src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 									layout='fill'
-									objectFit='contain'
+									objectFit='cover'
 									placeholder='blur'
 							blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 								/></div>
-								<div className='relative h-96'>
+								<div className='relative'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
 									layout='fill'
-									objectFit='contain'
+									objectFit='cover'
 									placeholder='blur'
 							blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
 								/></div>

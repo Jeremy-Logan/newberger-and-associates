@@ -3,6 +3,7 @@ import projectList from '../data/projectList.json'
 import Head from 'next/head'
 import { motion }from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Projects() {
 
@@ -19,12 +20,12 @@ export default function Projects() {
 						objectFit='cover'
 						className='opacity-70'
 						placeholder='blur'
-						blurDataURL='t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
+						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
 					/>
 
 					<div className='absolute pt-24 pl-24 w-[70vw] z-10 text-white'>
 						<motion.h1 initial={{opacity: 0.2, translateY: -300}} animate={{opacity: 1, translateY: 0}} className='font-serif text-4xl font-bold mb-8'>
-							Newberger & Associates
+							<Link href='/'>Newberger & Associates</Link>
 						</motion.h1>
 						<motion.h2 initial={{opacity: 0.2, translateX: -300 }} animate={{opacity: 1, translateX: 0}} className='font-serif text-8xl font-bold ml-8'>
 							Featured Projects
@@ -36,7 +37,7 @@ export default function Projects() {
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
-						blurDataURL='t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
+						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
 						/>
 					</motion.div>
 				</motion.div>

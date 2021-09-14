@@ -67,36 +67,44 @@ const DrawIn = ({ children }) => {
 
 	return (
 		<motion.div ref={ref} animate={controls} initial='hidden'>
-		<div className='z-0'>
-			<svg
-				xmlns='http://www.w3.org/2000/svg'
-				viewBox='0 0 1024 580'
-				className='absolute xl:top-[-15%] md:top-[10%] sm:top-[-30%] left-0 z-0'>
-				<motion.path
-					d='M1024.39,275.33H186.27a2.94,2.94,0,0,0-2.94,2.94V546.56a2.93,2.93,0,0,1-2.94,2.93h-246'
-					fill='none'
-					stroke='#6676aa'
-					strokeWidth='1'
-					strokeDasharray='1.5, 3'
-					transition={{ type: 'spring', duration: 2.5, delay: 0.8 }}
-					variants={{
-						visible: { pathLength: 1 },
-						hidden: { pathLength: 0 },
-					}}
-				/>
+			<div className='z-0'>
+				<svg
+					xmlns='http://www.w3.org/2000/svg'
+					viewBox='0 0 1024 580'
+					className='absolute xl:top-[-15%] lg:top-[5%] md:top-[10%] sm:top-[15%] top-[20%] left-0 z-0'>
+					<motion.path
+						d='M1024.39,275.33H186.27a2.94,2.94,0,0,0-2.94,2.94V546.56a2.93,2.93,0,0,1-2.94,2.93h-246'
+						fill='none'
+						stroke='#6676aa'
+						strokeWidth='1'
+						strokeDasharray='1.5, 3'
+						transition={{
+							type: 'spring',
+							duration: 2.5,
+							delay: 0.8,
+						}}
+						variants={{
+							visible: { pathLength: 1 },
+							hidden: { pathLength: 0 },
+						}}
+					/>
 
-				<motion.path
-					d='M1024,281.67H192.21a2.94,2.94,0,0,0-2.94,2.94V552.89a2.94,2.94,0,0,1-2.94,2.94H0'
-					fill='none'
-					stroke='#6676aa'
-					strokeWidth='2'
-					transition={{ type: 'spring', duration: 2.5, delay: 0.8 }}
-					variants={{
-						visible: { pathLength: 1 },
-						hidden: { pathLength: 0 },
-					}}
-				/>
-			</svg>
+					<motion.path
+						d='M1024,281.67H192.21a2.94,2.94,0,0,0-2.94,2.94V552.89a2.94,2.94,0,0,1-2.94,2.94H0'
+						fill='none'
+						stroke='#6676aa'
+						strokeWidth='2'
+						transition={{
+							type: 'spring',
+							duration: 2.5,
+							delay: 0.8,
+						}}
+						variants={{
+							visible: { pathLength: 1 },
+							hidden: { pathLength: 0 },
+						}}
+					/>
+				</svg>
 			</div>
 		</motion.div>
 	)
@@ -113,27 +121,33 @@ const Project = (props) => {
 	return (
 		<div className='overflow-hidden relative'>
 			<SlideIn originX={-100} originY={0} delay={0}>
-				<div className='relative w-[60vw] h-[60vh]  z-10'>
-					<Image
-						src={props.heroImage}
-						layout='fill'
-						objectFit='cover'
-						placeholder='blur'
-						blurDataURL={'t_placeholder/' + props.heroImage}
-					/>
+				<div className='relative w-[60vw] h-[60vh] cursor-pointer z-10'>
+					<Link href={`./projects${props.path}`} passHref>
+						<Image
+							src={props.heroImage}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+								props.heroImage
+							}
+						/>
+					</Link>
 				</div>
 			</SlideIn>
 			<div className='z-0'>
-			<DrawIn/>
-
+				<DrawIn />
 			</div>
-			
-				<div className='relative flex z-40'>
-					<h2 className='z-40 absolute bottom-52 left-[55vw] bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6'>
+
+			<div className='relative flex z-40'>
+				<Link href={`./projects${props.path}`} passHref>
+					<h2 className='z-40 absolute bottom-52 left-[55vw] bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6 cursor-pointer'>
 						{props.title}
 					</h2>
-				</div>
-			
+				</Link>
+			</div>
+
 			<SlideIn originX={0} originY={200} delay={0}>
 				<div className='grid grid-cols-4 grid-flow-row w-screen '>
 					<div className='flex justify-end pr-36 py-24 col-span-2 row-span-1 '>
@@ -155,43 +169,37 @@ const Project = (props) => {
 							</Link>
 						</div>
 					</div>
-					<div className='relative h-[70vh] row-span-2 col-span-2'>
-						<Image
-							src={props.portfolioImages[0]}
-							layout='fill'
-							objectFit='cover'
-							placeholder='blur'
-							blurDataURL={
-								't_placeholder/' + props.portfolioImages[0]
-							}
-						/>
+					<div className='relative h-[70vh] row-span-2 col-span-2 cursor-pointer'>
+						<Link href={`./projects${props.path}`} passHref>
+							<Image
+								src={props.portfolioImages[0]}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.portfolioImages[0]
+								}
+							/>
+						</Link>
 					</div>
 
-					<div className='relative h-[70vh] mb-36 col-span-2  row-start-2'>
-						<Image
-							src={props.portfolioImages[2]}
-							layout='fill'
-							objectFit='cover'
-							placeholder='blur'
-							blurDataURL={
-								't_placeholder/' + props.portfolioImages[2]
-							}
-						/>
+					<div className='relative h-[70vh] mb-36 col-span-2 cursor-pointer row-start-2'>
+						<Link href={`./projects${props.path}`} passHref>
+							<Image
+								src={props.portfolioImages[2]}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.portfolioImages[2]
+								}
+							/>
+						</Link>
 					</div>
 				</div>
 			</SlideIn>
-
-			<div className='flex justify-end h-36 '>
-				<svg height='100' width='500'>
-					<line
-						x1='0'
-						y1='0'
-						x2='300'
-						y2='0'
-						className='stroke-[5px] stroke-current text-gray-400'
-					/>
-				</svg>
-			</div>
 		</div>
 	)
 }
@@ -203,37 +211,46 @@ const ProjectFlipped = (props) => {
 				<div className='w-1/2'></div>
 				<div className='absolute bottom-52 right-[55vw] z-30'>
 					<SlideIn originX={-200}>
-						<h2 className=' bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6'>
-							{props.title}
-						</h2>
+						<Link href={`./projects${props.path}`} passHref>
+							<h2 className=' bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6 cursor-pointer'>
+								{props.title}
+							</h2>
+						</Link>
 					</SlideIn>
 				</div>
 				<SlideIn originX={300}>
-					<div className='relative w-[60vw] h-[60vh] z-10'>
-						<Image
-							src={props.heroImage}
-							layout='fill'
-							objectFit='cover'
-							placeholder='blur'
-							blurDataURL={'t_placeholder/' + props.heroImage}
-						/>
-					</div>
+					<Link href={`./projects${props.path}`} passHref>
+						<div className='relative w-[60vw] h-[60vh] z-10 cursor-pointer'>
+							<Image
+								src={props.heroImage}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.heroImage
+								}
+							/>
+						</div>
+					</Link>
 				</SlideIn>
 			</div>
 			<SlideIn originY={200}>
-			<div className='grid grid-cols-4 grid-flow-row w-screen z-40'>
-				
-					<div className='relative h-[70vh] row-span-2 col-span-2'>
-						<Image
-							src={props.portfolioImages[0]}
-							layout='fill'
-							objectFit='cover'
-							placeholder='blur'
-							blurDataURL={
-								't_placeholder/' + props.portfolioImages[0]
-							}
-						/>
-					</div>
+				<div className='grid grid-cols-4 grid-flow-row w-screen z-40'>
+					<Link href={`./projects${props.path}`} passHref>
+						<div className='relative h-[70vh] row-span-2 col-span-2 cursor-pointer'>
+							<Image
+								src={props.portfolioImages[0]}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.portfolioImages[0]
+								}
+							/>
+						</div>
+					</Link>
 					<div className='flex justify-start pl-36 py-24 col-span-2 row-span-1 z-50'>
 						<div className='text-left'>
 							<h3 className='text-md font-semibold tracking-wider mb-4'>
@@ -254,29 +271,21 @@ const ProjectFlipped = (props) => {
 						</div>
 					</div>
 					<SlideIn originX={300}>
-					<div className='relative w-[60vw] h-[60vh] z-10 mb-36'>
-						<Image
-							src={props.heroImage}
-							layout='fill'
-							objectFit='cover'
-							placeholder='blur'
-							blurDataURL={'t_placeholder/' + props.heroImage}
-						/>
-					</div>
-				</SlideIn>
+						<div className='relative w-[60vw] h-[60vh] z-10 mb-36 cursor-pointer'><Link href={`./projects${props.path}`} passHref>
+							<Image
+								src={props.heroImage}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.heroImage
+								}
+							/></Link>
+						</div>
+					</SlideIn>
 				</div>
 			</SlideIn>
-			<div className='flex justify-start h-36 ml-36'>
-				<svg height='100' width='500'>
-					<line
-						x1='0'
-						y1='0'
-						x2='300'
-						y2='0'
-						className='stroke-[5px] stroke-current text-gray-400'
-					/>
-				</svg>
-			</div>
 		</>
 	)
 }

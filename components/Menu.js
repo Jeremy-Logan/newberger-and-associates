@@ -33,7 +33,7 @@ export const Menu = ({ toggle }) => {
 	return (
 		<motion.div className='relative w-screen z-40'>
 			<motion.ul
-				className='pt-36 absolute origin-right top-0 right-0 w-8/12 bg-[#687C8B] h-screen'
+				className='pt-36 absolute origin-right right-0 w-6/12 md:w-8/12 bg-[#687C8B] h-screen'
 				variants={variants} onClick={toggle}>
 				{links.map((link, index) => (
 					<>

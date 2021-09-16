@@ -103,7 +103,7 @@ function Project({ project }) {
 					{project.description}
 				</p>
 			</div>
-			<div className='grid grid-cols-2 grid-rows-8 mt-24'>
+			<div className='grid grid-cols-2 grid-rows-8 mt-24 mb-24'>
 				<SlideIn originX={-200}>
 					<div className=' h-[60vh] relative row-span-2 '>
 						<Image

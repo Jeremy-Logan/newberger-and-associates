@@ -15,12 +15,12 @@ export default function Projects() {
             <main>
             <motion.div initial={{opacity:0.2}} animate={{opacity: 1}} className='relative h-[60vh] z-0 bg-[#322121] mb-[40vh]'>
 					<Image
-						src='v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
+						src='v1628109814/Newberger%20and%20Associates/schuh-02_oybmuz.jpg'
 						layout='fill'
 						objectFit='cover'
 						className='opacity-70'
 						placeholder='blur'
-						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
+						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620327405/Newberger%20and%20Associates/schuh-02_oybmuz.jpg'
 					/>
 
 					<div className='absolute pt-24 pl-24 w-[70vw] z-10 text-white'>
@@ -33,11 +33,11 @@ export default function Projects() {
 					</div>
 					<motion.div initial={{opacity: 0.2, translateX: 300}} animate={{opacity: 1, translateX: 0}} transition={{  duration: 0.5}} className='absolute h-[70vh] w-[40vw] top-40 right-48 bg-[]'>
 						<Image
-							src='v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
+							src='v1628109812/Newberger%20and%20Associates/schuh-06_ktz6vd.jpg'
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
-						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
+						blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620326973/Newberger%20and%20Associates/schuh-06_ktz6vd.jpg'
 						/>
 					</motion.div>
 				</motion.div>

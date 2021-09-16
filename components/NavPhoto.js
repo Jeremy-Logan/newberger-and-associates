@@ -22,7 +22,7 @@ export const NavPhoto = ({ toggle }) => {
 	return (
 		<motion.div className='relative w-screen z-40'>
 			<motion.div
-				className='absolute origin-left top-0 left-0 w-4/12 bg-blue-500 h-[40vh]'
+				className='absolute origin-left top-0 left-0 w-6/12 md:w-4/12 bg-blue-500 h-[40vh]'
 				variants={variants}
 				onClick={toggle}>
 				<Image

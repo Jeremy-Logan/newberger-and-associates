@@ -57,7 +57,7 @@ const SlideIn = ({ children, originX, originY, delay }) => {
 	)
 }
 
-const DrawIn = ({ children }) => {
+const DrawLine = ({ children }) => {
 	const controls = useAnimation()
 	const [ref, inView] = useInView()
 
@@ -67,13 +67,13 @@ const DrawIn = ({ children }) => {
 
 	return (
 		<motion.div ref={ref} animate={controls} initial='hidden'>
-			<div className='z-0'>
+			<div className='z-50'>
 				<svg
 					xmlns='http://www.w3.org/2000/svg'
-					viewBox='0 0 1024 580'
-					className='absolute xl:top-[-15%] lg:top-[5%] md:top-[10%] sm:top-[15%] top-[20%] left-0 z-0'>
+					viewBox='0 0 1024 140'
+					className='hidden md:block z-0'>
 					<motion.path
-						d='M1024.39,275.33H186.27a2.94,2.94,0,0,0-2.94,2.94V546.56a2.93,2.93,0,0,1-2.94,2.93h-246'
+						d='M1025,4.19H217.69A5.82,5.82,0,0,0,211.87,10V123a5.83,5.83,0,0,1-5.83,5.83H1'
 						fill='none'
 						stroke='#6676aa'
 						strokeWidth='1'
@@ -90,7 +90,60 @@ const DrawIn = ({ children }) => {
 					/>
 
 					<motion.path
-						d='M1024,281.67H192.21a2.94,2.94,0,0,0-2.94,2.94V552.89a2.94,2.94,0,0,1-2.94,2.94H0'
+						d='M1024,11.19H224.69A5.82,5.82,0,0,0,218.87,17V130a5.83,5.83,0,0,1-5.83,5.83H0'
+						fill='none'
+						stroke='#6676aa'
+						strokeWidth='2'
+						transition={{
+							type: 'spring',
+							duration: 2.5,
+							delay: 0.8,
+						}}
+						variants={{
+							visible: { pathLength: 1 },
+							hidden: { pathLength: 0 },
+						}}
+					/>
+				</svg>
+			</div>
+		</motion.div>
+	)
+}
+
+const DrawLineFlipped = ({ children }) => {
+	const controls = useAnimation()
+	const [ref, inView] = useInView()
+
+	useEffect(() => {
+		inView ? controls.start('visible') : null
+	}, [controls, inView])
+
+	return (
+		<motion.div ref={ref} animate={controls} initial='hidden'>
+			<div className='z-50'>
+				<svg
+					xmlns='http://www.w3.org/2000/svg'
+					viewBox='0 0 1024 140'
+					className='hidden md:block z-0 '>
+					<motion.path
+						d="M0,4.19H807.31A5.82,5.82,0,0,1,813.13,10V123a5.83,5.83,0,0,0,5.83,5.83h205"
+						fill='none'
+						stroke='#6676aa'
+						strokeWidth='1'
+						strokeDasharray='1.5, 3'
+						transition={{
+							type: 'spring',
+							duration: 2.5,
+							delay: 0.8,
+						}}
+						variants={{
+							visible: { pathLength: 1 },
+							hidden: { pathLength: 0 },
+						}}
+					/>
+
+					<motion.path
+						d='M1,11.19H800.31A5.82,5.82,0,0,1,806.13,17V130a5.83,5.83,0,0,0,5.83,5.83h213'
 						fill='none'
 						stroke='#6676aa'
 						strokeWidth='2'
@@ -119,9 +172,9 @@ const Project = (props) => {
 	)
 
 	return (
-		<div className='overflow-hidden relative'>
+		<div className='overflow-hidden relative my-24 md:my-0'>
 			<SlideIn originX={-100} originY={0} delay={0}>
-				<div className='relative w-[60vw] h-[60vh] cursor-pointer z-10'>
+				<div className='relative w-screen h-96 md:w-[60vw] md:h-[60vh] cursor-pointer z-10'>
 					<Link href={`./projects${props.path}`} passHref>
 						<Image
 							src={props.heroImage}
@@ -136,13 +189,11 @@ const Project = (props) => {
 					</Link>
 				</div>
 			</SlideIn>
-			<div className='z-0'>
-				<DrawIn />
-			</div>
+			
 
-			<div className='relative flex z-40'>
+			<div className='absolute top-0 left-0 md:top-52 md:left-[55vw] z-30'>
 				<Link href={`./projects${props.path}`} passHref>
-					<h2 className='z-40 absolute bottom-52 left-[55vw] bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6 cursor-pointer'>
+					<h2 className=' bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6 cursor-pointer'>
 						{props.title}
 					</h2>
 				</Link>
@@ -150,14 +201,14 @@ const Project = (props) => {
 
 			<SlideIn originX={0} originY={200} delay={0}>
 				<div className='grid grid-cols-4 grid-flow-row w-screen '>
-					<div className='flex justify-end pr-36 py-24 col-span-2 row-span-1 '>
+					<div className='flex justify-left ml-6 md:ml-0 md:justify-end md:pr-36 py-16 md:py-24 col-span-2 row-span-1 '>
 						<div className='text-left'>
 							<h3 className='text-md font-semibold tracking-wider mb-4'>
 								{props.category}
 							</h3>
 							{props.features.map((feature, i) => (
 								<h4
-									className='text-2xl leading-relaxed'
+									className='text-lg md:text-2xl leading-relaxed'
 									key={i}>
 									{feature}
 								</h4>
@@ -169,7 +220,7 @@ const Project = (props) => {
 							</Link>
 						</div>
 					</div>
-					<div className='relative h-[70vh] row-span-2 col-span-2 cursor-pointer'>
+					<div className='relative h-96 md:h-[70vh] row-span-2 col-span-2 cursor-pointer'>
 						<Link href={`./projects${props.path}`} passHref>
 							<Image
 								src={props.portfolioImages[0]}
@@ -183,8 +234,7 @@ const Project = (props) => {
 							/>
 						</Link>
 					</div>
-
-					<div className='relative h-[70vh] mb-36 col-span-2 cursor-pointer row-start-2'>
+					<div className='relative h-96 md:h-[70vh] mb-12 w-screen md:w-full col-span-2 cursor-pointer row-start-2'>
 						<Link href={`./projects${props.path}`} passHref>
 							<Image
 								src={props.portfolioImages[2]}
@@ -200,6 +250,7 @@ const Project = (props) => {
 					</div>
 				</div>
 			</SlideIn>
+			<DrawLine/>
 		</div>
 	)
 }
@@ -209,7 +260,7 @@ const ProjectFlipped = (props) => {
 		<>
 			<div className='relative flex overflow-hidden'>
 				<div className='w-1/2'></div>
-				<div className='absolute bottom-52 right-[55vw] z-30'>
+				<div className='absolute top-0 right-0 md:top-52 md:right-[55vw] z-30'>
 					<SlideIn originX={-200}>
 						<Link href={`./projects${props.path}`} passHref>
 							<h2 className=' bg-[#EE9207] text-white text-6xl font-serif font-bold pb-4 pt-3 px-6 cursor-pointer'>
@@ -220,7 +271,7 @@ const ProjectFlipped = (props) => {
 				</div>
 				<SlideIn originX={300}>
 					<Link href={`./projects${props.path}`} passHref>
-						<div className='relative w-[60vw] h-[60vh] z-10 cursor-pointer'>
+						<div className='relative w-screen h-96 md:w-[60vw] md:h-[60vh] z-10 cursor-pointer'>
 							<Image
 								src={props.heroImage}
 								layout='fill'
@@ -238,7 +289,7 @@ const ProjectFlipped = (props) => {
 			<SlideIn originY={200}>
 				<div className='grid grid-cols-4 grid-flow-row w-screen z-40'>
 					<Link href={`./projects${props.path}`} passHref>
-						<div className='relative h-[70vh] row-span-2 col-span-2 cursor-pointer'>
+						<div className='relative h-96 md:h-[70vh] row-span-2 col-span-2 cursor-pointer'>
 							<Image
 								src={props.portfolioImages[0]}
 								layout='fill'
@@ -251,14 +302,14 @@ const ProjectFlipped = (props) => {
 							/>
 						</div>
 					</Link>
-					<div className='flex justify-start pl-36 py-24 col-span-2 row-span-1 z-50'>
+					<div className='flex justify-center md:justify-start md:pl-36 py-16 md:py-24 col-span-2 row-span-1 z-50'>
 						<div className='text-left'>
-							<h3 className='text-md font-semibold tracking-wider mb-4'>
+							<h3 className='text-md font-semibold tracking-wider mb-4 md:text-left text-right'>
 								{props.category}
 							</h3>
 							{props.features.map((feature, i) => (
 								<h4
-									className='text-2xl leading-relaxed'
+									className='text-lg md:text-2xl text-right md:text-left leading-relaxed'
 									key={i}>
 									{feature}
 								</h4>
@@ -271,21 +322,40 @@ const ProjectFlipped = (props) => {
 						</div>
 					</div>
 					<SlideIn originX={300}>
-						<div className='relative w-[60vw] h-[60vh] z-10 mb-36 cursor-pointer'><Link href={`./projects${props.path}`} passHref>
-							<Image
-								src={props.heroImage}
+						<div className='relative w-screen h-96 md:w-[50vw] md:h-[60vh] z-10 mb-12 cursor-pointer hidden md:block'>
+							<Link href={`./projects${props.path}`} passHref>
+								<Image
+									src={props.portfolioImages[1]}
 								layout='fill'
 								objectFit='cover'
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									props.heroImage
-								}
-							/></Link>
+									props.portfolioImages[1]
+									}
+								/>
+							</Link>
 						</div>
 					</SlideIn>
-				</div>
+				</div><SlideIn originX={300}>
+						<div className='relative h-96 md:h-[60vh] w-screen md:w-full col-span-2 cursor-pointer row-start-2 md:hidden'>
+							<Link href={`./projects${props.path}`} passHref>
+								<Image
+									src={props.portfolioImages[2]}
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL={
+									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
+									props.portfolioImages[2]
+								}
+									
+								/>
+							</Link>
+						</div>
+					</SlideIn>
 			</SlideIn>
+			<DrawLineFlipped/>
 		</>
 	)
 }

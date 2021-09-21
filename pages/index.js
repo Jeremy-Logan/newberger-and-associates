@@ -22,11 +22,11 @@ export default function Home() {
 						blurDataURL='t_placeholder/v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg'
 						layout='fill'
 						objectFit='cover'
-						className='opacity-70'
+						className='opacity-50'
 						placeholder='blur'
 					/>
 
-					<div className='absolute md:pt-24 pt-12 pl-[10vw] w-[70vw] z-10 text-white'>
+					<div className='absolute pt-24 pl-[10vw] w-[80vw] z-10 text-white'>
 						<motion.h1
 							initial={{ opacity: 0.2, translateY: -300 }}
 							animate={{ opacity: 1, translateY: 0 }}
@@ -36,7 +36,7 @@ export default function Home() {
 						<motion.div
 							initial={{ opacity: 0.2, translateX: -300 }}
 							animate={{ opacity: 1, translateX: 0 }}
-							className='font-serif 2xl:text-6xl xl:text-5xl lg:text-4xl text-xl font-bold md:ml-8 lg:w-6/12 leading-tight'>
+							className='font-serif 2xl:text-6xl xl:text-5xl lg:text-4xl text-2xl font-bold md:ml-8 lg:w-6/12 leading-tight'>
 							<h2 >Exploring new directions. <br/> Grounded in tradition.</h2>
 						</motion.div>
 					</div>

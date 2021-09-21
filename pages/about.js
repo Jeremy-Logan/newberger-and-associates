@@ -55,7 +55,7 @@ export default function About() {
 						</motion.div>
 					</motion.div>
 					<div className='h-24 md:h-96'></div>
-					<div className='h-auto mx-6 md:mx-[15vw] mb-48 font-bold font-serif'>
+					<div className='h-auto px-6 md:mx-[15vw] mb-48 font-bold font-serif'>
 						<h3 className='text-gray-500 text-3xl md:text-5xl mb-16'>
 							Welcome to Newberger & Associates
 						</h3>
@@ -79,64 +79,59 @@ export default function About() {
 							skilled team of professionals and delivering a
 							successful project within budget and schedule.
 						</p>
-						<div className='w-screen'>
-							
-								<div className='relative w-screen md:w-3/12 h-[600px] mr-6 ' style={{float:'left'}}>
-									<Image
-										src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
-										layout='fill'
-										objectFit='contain'
-										placeholder='blur'
-										blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
-									/>
-								
-							</div>
-							<div className=' md:w-2/3'>
-								<h3 className='text-4xl mb-8'>
-									Todd Newberger
-								</h3>
-								<p className=' mb-12 md:mb-36 md:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
-									Todd is principal architect, landscape
-									designer, project manager and
-									spearfisherman. Receiving his Bachelor’s
-									degree from University of California at
-									Berkeley, he became a licensed architect in
-									2007 after spending many years in the
-									industry. His visionary perspective has
-									earned him opportunities to design projects
-									with wide ranging functions. From modern
-									ocean view homes to intimate cottages, from
-									artfully designed tasting rooms to
-									large-scale medical facilities: all of
-									Todd's projects are as beautiful as they are
-									functional. <br /> <br />
-									He escapes it all by retreating to his
-									vegetable garden by the sea, puttering and
-									planning. Todd's love of the outdoors also
-									calls him to the ocean. Here he can be found
-									freediving in the cold Pacific waters,
-									usually to catch his dinner.
-									<br /> <br /> Todd's deep passion for
-									architecture joins with his love of nature
-									to create wonderful, livable places and
-									spaces for every project he tackles. <br />
-									<br /> Todd is accredited by the California
-									Architects Board and holds a California
-									Landscape Contractors License. His previous
-									experience as a Certified Energy Analyst and
-									a Leadership in Energy and Environmental
-									Design Accredited Professional serve as a
-									foundation for his sustainable ethic. His
-									work has been featured on Home and Garden
-									Television (HGTV) and he has designed large
-									complex medical complexes for organizations
-									including UC Davis, Sutter Health and Kaiser
-									Permanente.
-								</p>
-							</div>
+					</div>
+					<div className='w-screen flex flex-col justify-items-center'>
+						<div
+							className='relative md:w-3/12 h-[45vh] md:h-[600px] md:mr-6 mb-10'
+							style={{ float: 'left' }}>
+							<Image
+								src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
+								layout='fill'
+								objectFit='contain'
+								placeholder='blur'
+								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
+							/>
 						</div>
-						<div className='grid md:grid-cols-4 grid-cols-2 mt-24 h-[500px] gap-4'>
-							<div className='relative'>
+						<div className=' md:w-2/3 md:mx-0 mx-12'>
+							<h3 className='text-4xl mb-8 font-serif'>Todd Newberger</h3>
+							<p className='md:ml-12 mb-12 md:mb-36 md:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
+								Todd is principal architect, landscape designer,
+								project manager and spearfisherman. Receiving
+								his Bachelor’s degree from University of
+								California at Berkeley, he became a licensed
+								architect in 2007 after spending many years in
+								the industry. His visionary perspective has
+								earned him opportunities to design projects with
+								wide ranging functions. From modern ocean view
+								homes to intimate cottages, from artfully
+								designed tasting rooms to large-scale medical
+								facilities: all of Todd's projects are as
+								beautiful as they are functional. <br /> <br />
+								He escapes it all by retreating to his vegetable
+								garden by the sea, puttering and planning.
+								Todd's love of the outdoors also calls him to
+								the ocean. Here he can be found freediving in
+								the cold Pacific waters, usually to catch his
+								dinner.
+								<br /> <br /> Todd's deep passion for
+								architecture joins with his love of nature to
+								create wonderful, livable places and spaces for
+								every project he tackles. <br />
+								<br /> Todd is accredited by the California
+								Architects Board and holds a California
+								Landscape Contractors License. His previous
+								experience as a Certified Energy Analyst and a
+								Leadership in Energy and Environmental Design
+								Accredited Professional serve as a foundation
+								for his sustainable ethic. His work has been
+								featured on Home and Garden Television (HGTV)
+								and he has designed large complex medical
+								complexes for organizations including UC Davis,
+								Sutter Health and Kaiser Permanente.
+							</p>
+						</div>
+						<div className='grid xl:grid-cols-4 grid-cols-2 mt-24 gap-4 mx-4'>
+							<div className='relative h-[250px] w-full'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 									layout='fill'
@@ -145,7 +140,7 @@ export default function About() {
 									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 								/>
 							</div>
-							<div className='relative'>
+							<div className='relative h-[250px] w-full'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 									layout='fill'
@@ -154,7 +149,7 @@ export default function About() {
 									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 								/>
 							</div>
-							<div className='relative'>
+							<div className='relative h-[250px] w-full'>
 								<Image
 									src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 									layout='fill'
@@ -163,7 +158,7 @@ export default function About() {
 									blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 								/>
 							</div>
-							<div className='relative'>
+							<div className='relative h-[250px] w-full'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
 									layout='fill'

@@ -10,6 +10,7 @@ import {
 } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export async function getStaticPaths() {
 	const paths = projectList.projectList.map((project) => {
@@ -54,24 +55,31 @@ const SlideIn = ({ children, originX, originY }) => {
 function Project({ project }) {
 	return (
 		<div>
+		<Head>
+				<title>Newberger & Associates | {project.title}</title>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
+			<main>
 			<motion.div
 				initial={{ opacity: 0.2 }}
 				animate={{ opacity: 1 }}
-				className='relative h-[60vh] z-0 bg-[#0b0b13]'>
+				className='relative h-[40vh] md:h-[60vh] z-0 bg-[#322121]'>
 				<Image
 					src={project.heroImage}
 					layout='fill'
 					objectFit='cover'
 					className='opacity-50'
+					placeholder='blur'
+					blurDataURL={'t_placeholder/' + project.heroImage}
 				/>
 
-				<div className='absolute pt-48 pl-[10vw] w-[70vw] z-10 text-white cursor-pointer'>
+				<div className='absolute md:pt-24 pt-12 pl-[10vw] w-[70vw] z-10 text-white'>
 					
 						<motion.h1
 							initial={{ opacity: 0.2, translateY: -300 }}
 							animate={{ opacity: 1, translateY: 0 }}
 							transition={{ duration: 0.5, delay: 0.3 }}
-							className='font-serif text-4xl font-bold mb-8'>
+							className='font-serif lg:text-4xl text-2xl font-bold mb-8'>
 							<Link href='/'>Newberger & Associates</Link>
 						</motion.h1>
 					
@@ -79,7 +87,7 @@ function Project({ project }) {
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
 						transition={{ duration: 0.5, delay: 0.3 }}
-						className='font-serif text-8xl font-bold ml-8'>
+						className='font-serif 2xl:text-6xl xl:text-5xl text-5xl font-bold md:ml-8 lg:w-6/12 leading-tight'>
 						{project.title}
 					</motion.h2>
 				</div>
@@ -87,25 +95,41 @@ function Project({ project }) {
 					initial={{ opacity: 0.2, translateX: 300 }}
 					animate={{ opacity: 1, translateX: 0 }}
 					transition={{ duration: 0.5, delay: 0.3 }}
-					className='absolute h-[50vh] w-[60vw] top-80 right-0 '>
+					className='absolute hidden md:block left-[5vw] right-[5vw] md:left-[50vw] top-[400px] md:h-[50vh] md:w-[40vw] md:top-60 xl:h-[60vh]'>
 					<Image
 						src={project.portfolioImages[0]}
 						layout='fill'
 						objectFit='cover'
+						placeholder='blur'
+						blurDataURL={'t_placeholder' + project.portfolioImages[0]}
 					/>
 				</motion.div>
 			</motion.div>
-			<div className='mx-[20vw] mt-64'>
-				<h3 className='text-lg font-bold text-yellow-600'>
+			<div className='md:h-96 h-16'></div>
+			<div className='md:h-96 mx-12 md:mx-[25vw] font-bold '>
+				<h3 className='text-2xl font-bold text-yellow-600 font-serif'>
 					{project.headline}
 				</h3>
-				<p className='font-serif text-lg font-semibold leading-loose mt-6'>
+				<p className='font-normal md:text-lg md:font-semibold leading-loose mt-6 ' >
 					{project.description}
 				</p>
 			</div>
-			<div className='grid grid-cols-2 grid-rows-8 mt-24 mb-24'>
+			<div className='grid md:grid-cols-2 grid-rows-8 mt-24 mb-24'>
 				<SlideIn originX={-200}>
-					<div className=' h-[60vh] relative row-span-2 '>
+					<div className=' h-[60vh] relative md:row-span-2 '>
+						<Image
+							src={project.portfolioImages[0]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[0]
+							}
+						/>
+					</div>
+				</SlideIn>
+				<SlideIn originX={200}>
+					<div className=' h-[60vh] relative md:row-span-2 md:mt-[30vh]'>
 						<Image
 							src={project.portfolioImages[1]}
 							layout='fill'
@@ -117,8 +141,8 @@ function Project({ project }) {
 						/>
 					</div>
 				</SlideIn>
-				<SlideIn originX={200}>
-					<div className=' h-[60vh] relative row-span-2 mt-[30vh]'>
+				<SlideIn originX={-200}>
+					<div className='overflow-hidden h-[60vh] relative md:row-span-2 md:mt-[-30vh]'>
 						<Image
 							src={project.portfolioImages[2]}
 							layout='fill'
@@ -130,8 +154,8 @@ function Project({ project }) {
 						/>
 					</div>
 				</SlideIn>
-				<SlideIn originX={-200}>
-					<div className=' h-[60vh] relative row-span-2 mt-[-30vh]'>
+				<SlideIn originX={200}>
+					<div className=' h-[60vh] relative md:row-span-2 md:row-start-5'>
 						<Image
 							src={project.portfolioImages[3]}
 							layout='fill'
@@ -144,7 +168,7 @@ function Project({ project }) {
 					</div>
 				</SlideIn>
 				<SlideIn originX={200}>
-					<div className=' h-[60vh] relative row-span-2 row-start-5'>
+					<div className='overflow-hidden h-[60vh] relative md:row-span-2 md:mt-[-30vh]'>
 						<Image
 							src={project.portfolioImages[4]}
 							layout='fill'
@@ -156,7 +180,9 @@ function Project({ project }) {
 						/>
 					</div>
 				</SlideIn>
+				
 			</div>
+			</main>
 		</div>
 	)
 }

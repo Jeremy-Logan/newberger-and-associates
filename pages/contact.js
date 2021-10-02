@@ -36,7 +36,7 @@ export default function Contact() {
 						id='contact'
 						className='md:p-16 p-8 flex flex-col bg-white opacity-100 z-20 drop-shadow-xl w-screen xl:w-[30vw] lg:w-[50vw] md:w-[70vw]'>
 						
-						<h2 className='lg:text-3xl md:text-2xl text-xl font-serif font-bold text-center mb-8 md:mb-12'>
+						<h2 className='md:text-2xl text-xl font-sans font-bold text-center mb-8 md:mb-12'>
 							Interested in working together?<br/> Tell us a bit about your project.
 						</h2>
 						<input type='hidden' name='form-name' value='contact' />

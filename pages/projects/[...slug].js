@@ -167,7 +167,7 @@ function Project({ project }) {
 						/>
 					</div>
 				</SlideIn>
-				<SlideIn originX={200}>
+				<SlideIn originX={-200}>
 					<div className='overflow-hidden h-[60vh] relative md:row-span-2 md:mt-[-30vh]'>
 						<Image
 							src={project.portfolioImages[4]}
@@ -180,7 +180,19 @@ function Project({ project }) {
 						/>
 					</div>
 				</SlideIn>
-				
+				<SlideIn originX={200}>
+					<div className=' h-[60vh] relative md:row-span-2 md:row-start-5'>
+						<Image
+							src={project.portfolioImages[3]}
+							layout='fill'
+							objectFit='cover'
+							placeholder='blur'
+							blurDataURL={
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[3]
+							}
+						/>
+					</div>
+				</SlideIn>
 			</div>
 			</main>
 		</div>

@@ -97,7 +97,7 @@ function Project({ project }) {
 					transition={{ duration: 0.5, delay: 0.3 }}
 					className='absolute hidden md:block left-[5vw] right-[5vw] md:left-[50vw] top-[400px] md:h-[50vh] md:w-[40vw] md:top-60 xl:h-[60vh]'>
 					<Image
-						src={project.portfolioImages[0]}
+						src={project.portfolioImages[5]}
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
@@ -106,11 +106,11 @@ function Project({ project }) {
 				</motion.div>
 			</motion.div>
 			<div className='md:h-96 h-16'></div>
-			<div className='md:h-96 mx-12 md:mx-[25vw] font-bold '>
+			<div className='md:h-96 mx-4 md:mx-[25vw] font-bold '>
 				<h3 className='text-2xl font-bold text-yellow-600 font-serif'>
 					{project.headline}
 				</h3>
-				<p className='font-normal md:text-lg md:font-semibold leading-loose mt-6 ' >
+				<p className='font-normal text-sm md:text-lg md:font-semibold leading-loose mt-6 ' >
 					{project.description}
 				</p>
 			</div>
@@ -183,7 +183,7 @@ function Project({ project }) {
 				<SlideIn originX={200}>
 					<div className=' h-[60vh] relative md:row-span-2 md:row-start-5'>
 						<Image
-							src={project.portfolioImages[3]}
+							src={project.portfolioImages[5]}
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'

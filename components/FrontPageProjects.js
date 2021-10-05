@@ -201,7 +201,7 @@ const Project = (props) => {
 
 			<SlideIn originX={0} originY={200} delay={0}>
 				<div className='grid grid-cols-4 grid-flow-row w-screen '>
-					<div className='flex justify-left ml-6 md:ml-0 md:justify-end md:pr-36 py-16 md:py-24 col-span-2 row-span-1 '>
+					<div className='flex justify-left ml-2 md:ml-0 md:justify-end md:pr-36 py-16 md:py-24 col-span-2 row-span-1 '>
 						<div className='text-left'>
 							<h3 className='text-md font-semibold tracking-wider mb-4'>
 								{props.category}
@@ -304,18 +304,18 @@ const ProjectFlipped = (props) => {
 					</Link>
 					<div className='flex justify-center md:justify-start md:pl-36 py-16 md:py-24 col-span-2 row-span-1 z-50'>
 						<div className='text-left'>
-							<h3 className='text-md font-semibold tracking-wider mb-4 md:text-left text-right'>
+							<h3 className='text-md font-semibold tracking-wider mr-2 mb-4 md:text-left text-right'>
 								{props.category}
 							</h3>
 							{props.features.map((feature, i) => (
 								<h4
-									className='text-lg md:text-2xl text-right md:text-left leading-relaxed'
+									className='text-lg md:text-2xl text-right md:text-left leading-relaxed mr-2'
 									key={i}>
 									{feature}
 								</h4>
 							))}
 							<Link href={`./projects${props.path}`}>
-								<button className='border-[#EE9207] p-4 border-2 mt-10 text-[#EE9207]'>
+								<button className='border-[#EE9207] p-4 border-2 mt-10 text-[#EE9207] ml-2'>
 									READ MORE
 								</button>
 							</Link>

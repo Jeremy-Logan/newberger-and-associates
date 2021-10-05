@@ -55,11 +55,11 @@ export default function About() {
 						</motion.div>
 					</motion.div>
 					<div className='h-24 md:h-96'></div>
-					<div className='h-auto px-6 md:mx-[15vw] mb-48 font-bold font-serif'>
+					<div className='h-auto px-6 md:mx-[15vw] mb-10 md:mb-48 font-bold font-serif'>
 						<h3 className='text-gray-500 text-3xl md:text-5xl mb-16'>
 							Welcome to Newberger & Associates
 						</h3>
-						<p className='md:ml-12 mb-12 md:mb-36 md:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
+						<p className='md:ml-12 mb-8 md:mb-36 text-sm md:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
 							Led by founder Todd Newberger, we are a design
 							studio committed to innovative, sustainable
 							architecture that elevates the human experience
@@ -80,9 +80,9 @@ export default function About() {
 							successful project within budget and schedule.
 						</p>
 					</div>
-					<div className='w-screen flex flex-col md:flex-row justify-items-center mx-12'>
+					<div className='w-screen flex flex-col md:flex-row justify-items-center md:mx-12'>
 						<div
-							className='relative md:w-3/12 h-[45vh] md:h-[600px] mt-20 mb-10'
+							className='relative md:w-3/12 h-[45vh] md:h-[600px] md:mt-20 mb-10'
 							style={{ float: 'left' }}>
 							<Image
 								src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
@@ -92,11 +92,11 @@ export default function About() {
 								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
 							/>
 						</div>
-						<div className=' md:w-7/12 md:mx-0 mx-12'>
-							<h3 className='text-4xl mb-8 font-serif font-bold text-gray-500'>
+						<div className='w-screen md:w-7/12 md:mx-0 px-6'>
+							<h3 className='md:text-4xl text-xl md:mb-8 mb-4 font-serif font-bold text-gray-500'>
 								Todd Newberger
 							</h3>
-							<p className='md:ml-12 mb-12 md:mb-36 lg:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
+							<p className='md:ml-12 mb-0 md:mb-36 text-sm lg:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
 								Todd is principal architect, landscape designer,
 								project manager and spearfisherman. Receiving
 								his Bachelor’s degree from University of
@@ -132,8 +132,8 @@ export default function About() {
 							</p>
 						</div>
 						
-					</div><div className='grid xl:grid-cols-4 grid-cols-2 mt-24 gap-4 mx-24 2xl:mx-48'>
-							<div className='relative h-[20vh] md:h-[40vh] xl:h-[50vh] w-full '>
+					</div><div className='grid xl:grid-cols-4 grid-cols-2 mt-8 md:mt-24 gap-4 md:mx-24 2xl:mx-48'>
+							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full '>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 									layout='fill'
@@ -142,7 +142,7 @@ export default function About() {
 									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
 								/>
 							</div>
-							<div className='relative h-[20vh] md:h-[40vh] xl:h-[50vh] w-full'>
+							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 									layout='fill'
@@ -151,7 +151,7 @@ export default function About() {
 									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
 								/>
 							</div>
-							<div className='relative h-[20vh] md:h-[40vh] xl:h-[50vh] w-full'>
+							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
 								<Image
 									src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 									layout='fill'
@@ -160,7 +160,7 @@ export default function About() {
 									blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
 								/>
 							</div>
-							<div className='relative h-[20vh] md:h-[40vh] xl:h-[50vh] w-full'>
+							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
 								<Image
 									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
 									layout='fill'

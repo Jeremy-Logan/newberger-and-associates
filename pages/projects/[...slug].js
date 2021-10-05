@@ -70,7 +70,7 @@ function Project({ project }) {
 					objectFit='cover'
 					className='opacity-50'
 					placeholder='blur'
-					blurDataURL={'t_placeholder/' + project.heroImage}
+					blurDataURL={'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.heroImage}
 				/>
 
 				<div className='absolute md:pt-24 pt-12 pl-[10vw] w-[70vw] z-10 text-white'>
@@ -101,7 +101,7 @@ function Project({ project }) {
 						layout='fill'
 						objectFit='cover'
 						placeholder='blur'
-						blurDataURL={'t_placeholder' + project.portfolioImages[0]}
+						blurDataURL={'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[0]}
 					/>
 				</motion.div>
 			</motion.div>
@@ -123,7 +123,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[0]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[0]
 							}
 						/>
 					</div>
@@ -136,7 +136,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[1]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[1]
 							}
 						/>
 					</div>
@@ -149,7 +149,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[2]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[2]
 							}
 						/>
 					</div>
@@ -162,7 +162,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[3]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[3]
 							}
 						/>
 					</div>
@@ -175,7 +175,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[4]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[4]
 							}
 						/>
 					</div>
@@ -188,7 +188,7 @@ function Project({ project }) {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
-								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder' + project.portfolioImages[3]
+								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' + project.portfolioImages[3]
 							}
 						/>
 					</div>

@@ -12,7 +12,7 @@ import {
 
 const FadeIn = ({ children }) => {
 	const controls = useAnimation()
-	const [ref, inView] = useInView()
+	const [ref, inView, entry] = useInView()
 
 	useEffect(() => {
 		inView ? controls.start('visible') : controls.start('hidden')
@@ -36,7 +36,7 @@ const FadeIn = ({ children }) => {
 
 const SlideIn = ({ children, originX, originY, delay }) => {
 	const controls = useAnimation()
-	const [ref, inView] = useInView()
+	const [ref, inView, entry] = useInView()
 
 	useEffect(() => {
 		inView ? controls.start('visible') : null
@@ -59,7 +59,7 @@ const SlideIn = ({ children, originX, originY, delay }) => {
 
 const DrawLine = ({ children }) => {
 	const controls = useAnimation()
-	const [ref, inView] = useInView()
+	const [ref, inView, entry] = useInView()
 
 	useEffect(() => {
 		inView ? controls.start('visible') : null
@@ -112,7 +112,7 @@ const DrawLine = ({ children }) => {
 
 const DrawLineFlipped = ({ children }) => {
 	const controls = useAnimation()
-	const [ref, inView] = useInView()
+	const [ref, inView, entry] = useInView()
 
 	useEffect(() => {
 		inView ? controls.start('visible') : null

@@ -28,7 +28,7 @@ const toggleActive = (index) => {
 
 
 export const Menu = ({ toggle }) => {
-	const links = [{index: 0, href: '/', name:'Home'}, {index: 1, href: '/about', name:'About'}, {index: 2, href: '/projects', name:'Projects'}, {index: 0, href: '/contact', name:'Contact'}]
+	const links = [{index: 0, href: '/', name:'Home'}, {index: 1, href: '/about', name:'About'}, {index: 2, href: '/projects', name:'Projects'}, {index: 3, href: '/contact', name:'Contact'}]
 
 	return (
 		<motion.div className='relative w-screen z-40'>

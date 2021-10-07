@@ -12,6 +12,7 @@ export default function Footer() {
         <li><Link href='/contact'>CONTACT</Link></li>
         </ul>
         <div className='md:text-right ml-12 md:ml-24 md:mr-24 md:text-xl text-white font-medium'>
+        <h3>NEWBERGER & ASSOCIATES</h3>
         <h3>435 NORTH MAIN STREET</h3>
         <h3>FORT BRAGG, CA  95437</h3>
         <h3>707.961.0911</h3>

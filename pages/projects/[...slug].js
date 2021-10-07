@@ -87,8 +87,9 @@ function Project({ project }) {
 						initial={{ opacity: 0.2, translateX: -300 }}
 						animate={{ opacity: 1, translateX: 0 }}
 						transition={{ duration: 0.5, delay: 0.3 }}
-						className='font-serif 2xl:text-6xl xl:text-5xl text-5xl font-bold md:ml-8 lg:w-6/12 leading-tight'>
-						{project.title}
+						className='font-sans 2xl:text-7xl xl:text-5xl lg:text-4xl text-2xl md:ml-8 lg:w-6/12'>
+								<h2 className='md:leading-relaxed'>
+						{project.title}</h2>
 					</motion.h2>
 				</div>
 				<motion.div

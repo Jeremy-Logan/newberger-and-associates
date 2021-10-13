@@ -118,7 +118,7 @@ function Project({ project }) {
 					<h3 className='text-2xl font-bold text-yellow-600 font-serif'>
 						{project.headline}
 					</h3>
-					<p className='font-normal text-sm md:text-lg md:font-semibold leading-loose mt-6 '>
+					<p className='font-normal text-sm md:text-lg md:font-semibold leading-loose mt-6 whitespace-pre-line' >
 						{project.description}
 					</p>
 				</div>

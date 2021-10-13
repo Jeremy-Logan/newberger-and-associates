@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <>
-      <footer className='flex justify-around md:justify-between py-12 bg-yellow-500 md:flex-row flex-col mt-12'>
+      <footer className='flex justify-around md:justify-between py-12 bg-yellow-500 md:flex-row flex-col mt-24'>
         <ul className='ml-12 md:ml-24 underline md:text-xl text-white font-medium mb-12 md:mb-0'>
         <li><Link href='/'>HOME</Link></li>
         <li><Link href='/projects'>PROJECTS</Link></li>

@@ -37,7 +37,7 @@ export default function Projects() {
 							initial={{ opacity: 0.2, translateX: -300 }}
 							animate={{ opacity: 1, translateX: 0 }}
 							className='font-sans 2xl:text-6xl xl:text-5xl lg:text-4xl text-2xl md:ml-8 lg:w-6/12'>
-								<h2 className='md:leading-relaxed'>
+								<h2 className='md:leading-relaxed font-semibold'>
 							Featured Projects</h2>
 						</motion.h2>
 					</div>

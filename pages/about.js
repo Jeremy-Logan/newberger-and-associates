@@ -37,7 +37,9 @@ export default function About() {
 								initial={{ opacity: 0.2, translateX: -300 }}
 								animate={{ opacity: 1, translateX: 0 }}
 								className='font-sans 2xl:text-7xl xl:text-5xl lg:text-4xl text-2xl md:ml-8 lg:w-6/12'>
-								<h2 className='md:leading-relaxed font-semibold'>About Us</h2>
+								<h2 className='md:leading-relaxed font-semibold'>
+									About Us
+								</h2>
 							</motion.h2>
 						</div>
 						<motion.div
@@ -60,22 +62,31 @@ export default function About() {
 							Welcome to Newberger & Associates
 						</h3>
 						<p className='md:ml-12 mb-8 md:mb-36 text-sm md:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
-							Led by founder Todd Newberger, we are a design
-							studio committed to innovative, sustainable
-							architecture that elevates the human experience
-							while celebrating the natural environment. Our
-							integrated philosophy is founded on the relationship
-							between the structure and the land it occupies,
-							utilizing the unique characteristics offered by the
-							site.
+							Led by Todd Newberger, we are a design studio
+							committed to innovative, sustainable architecture
+							that elevates the human experience while celebrating
+							the natural environment. Our holistic philosophy is
+							founded on the relationship between the structure
+							and the land it occupies, utilizing the unique
+							characteristics offered by the site.
 							<br />
 							<br />
-							Our 20+ years of coastal planning experience puts us
-							in the unique position of knowing not only how to
-							design for your coastal space, but also how to
-							navigate the unique challenges coastal building can
-							present. Our expertise is perfectly suited to
-							guiding you through the process of assembling a
+							Newberger & Associates builds on the legacy of
+							Leventhal Schlosser Architects, founded in 1982 by
+							Michael Leventhal and Robert Schlosser. Todd joined
+							Leventhal Schlosser Newberger Architects as a
+							partner in 2007. Leventhal retired in 2009 and in
+							2020, Todd took full ownership.It is this long
+							history of commitment to excellence that brings us
+							to where we are today.
+							<br />
+							<br />
+							Our twenty-plus years of coastal planning experience
+							puts us in the unique position of knowing not only
+							how to design for your coastal space, but also how
+							to navigate the unique challenges coastal building
+							can present. Our expertise is perfectly suited to
+							guide you through the process of assembling a
 							skilled team of professionals and delivering a
 							successful project within budget and schedule.
 						</p>
@@ -85,11 +96,11 @@ export default function About() {
 							className='relative md:w-3/12 h-[45vh] md:h-[600px] md:mt-20 mb-10'
 							style={{ float: 'left' }}>
 							<Image
-								src='c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
+								src='c_crop,g_south_west,h_1800,w_1200/v1635897518/Newberger%20and%20Associates/Todds-first-day_yydhpu.jpg'
 								layout='fill'
 								objectFit='contain'
 								placeholder='blur'
-								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1626282323/Newberger%20and%20Associates/Todd-photo-by-the-ocean_vrluo7.jpg'
+								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1635897518/Newberger%20and%20Associates/Todds-first-day_yydhpu.jpg'
 							/>
 						</div>
 						<div className='w-screen md:w-7/12 md:mx-0 px-6'>
@@ -98,78 +109,78 @@ export default function About() {
 							</h3>
 							<p className='md:ml-12 mb-0 md:mb-36 text-sm lg:text-2xl text-[#414141] leading-relaxed font-sans font-normal'>
 								Todd is principal architect, landscape designer,
-								project manager and spearfisherman. Receiving
+								project manager and spearfisherman. He received
 								his Bachelor’s degree from University of
-								California at Berkeley, he became a licensed
-								architect in 2007 after spending many years in
-								the industry. His visionary perspective has
-								earned him opportunities to design projects with
-								wide ranging functions. From modern ocean view
-								homes to intimate cottages, from artfully
-								designed tasting rooms to large-scale medical
-								facilities: all of Todd's projects are as
-								beautiful as they are functional. <br /> <br />
-								He escapes it all by retreating to his vegetable
-								garden by the sea, puttering and planning.
-								Todd's love of the outdoors also calls him to
-								the ocean. Here he can be found freediving in
-								the cold Pacific waters, usually to catch his
-								dinner.
-								<br /> <br /> Todd's deep passion for
-								architecture joins with his love of nature to
-								create wonderful, livable places and spaces for
-								every project he tackles. <br />
+								California at Berkeley and became a licensed
+								architect in 2007 after spending sixteen years
+								working in the industry. His visionary
+								perspective earned him opportunities to design
+								projects with wide ranging functions. From
+								modern ocean view homes to intimate cottages,
+								from artfully designed tasting rooms to
+								large-scale medical facilities: all of Todd's
+								projects are as beautiful as they are
+								functional.
+								<br /> <br /> He enjoys spending long hours in
+								his vegetable garden by the sea, puttering and
+								planning. Todd's love of the outdoors also calls
+								him to the ocean where he can be found
+								freediving in the cold Pacific waters, usually
+								to catch his dinner. Todd's deep passion for
+								architecture joins with his love of nature,
+								compelling him to create wonderful, livable
+								places and spaces. <br />
 								<br /> Todd is accredited by the California
 								Architects Board and holds a California
 								Landscape Contractors License. His previous
 								experience as a Certified Energy Analyst and a
 								Leadership in Energy and Environmental Design
 								(LEED) Accredited Professional serve as a
-								foundation for his sustainable ethic. Todd honed
-								his project management skills working on complex
-								healthcare facilities and applies his expertise,
-								organization and rigor to your projects.
+								foundation for his sustainable ethic. Todd has
+								managed many large complex projects and applies
+								his expertise, organization and rigor to every
+								project.
 							</p>
 						</div>
-						
-					</div><div className='grid xl:grid-cols-4 grid-cols-2 mt-8 md:mt-24 gap-4 md:mx-24 2xl:mx-48'>
-							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full '>
-								<Image
-									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
-									layout='fill'
-									objectFit='cover'
-									placeholder='blur'
-									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
-								/>
-							</div>
-							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
-								<Image
-									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
-									layout='fill'
-									objectFit='cover'
-									placeholder='blur'
-									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
-								/>
-							</div>
-							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
-								<Image
-									src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
-									layout='fill'
-									objectFit='cover'
-									placeholder='blur'
-									blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
-								/>
-							</div>
-							<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
-								<Image
-									src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
-									layout='fill'
-									objectFit='cover'
-									placeholder='blur'
-									blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
-								/>
-							</div>
+					</div>
+					<div className='grid xl:grid-cols-4 grid-cols-2 mt-8 md:mt-24 gap-4 md:mx-24 2xl:mx-48'>
+						<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full '>
+							<Image
+								src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Skiing_xydhi9.jpg'
+							/>
 						</div>
+						<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
+							<Image
+								src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Todd-Planting_as6c73.png'
+							/>
+						</div>
+						<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
+							<Image
+								src='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL='v1630520323/Newberger%20and%20Associates/Spearfishing_bmhnvb.jpg'
+							/>
+						</div>
+						<div className='relative h-[30vh] md:h-[50vh] xl:h-[40vh] 2xl:h-[50vh] w-full'>
+							<Image
+								src='c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
+								layout='fill'
+								objectFit='cover'
+								placeholder='blur'
+								blurDataURL='t_placeholder/c_crop,g_south_west,h_1800,w_1200/v1630520323/Newberger%20and%20Associates/Adoption_Day_dbizvz.jpg'
+							/>
+						</div>
+					</div>
 					<div></div>
 				</main>
 			</div>{' '}

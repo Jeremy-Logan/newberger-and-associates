@@ -36,9 +36,10 @@ export default function Contact() {
 						id='contact'
 						className='md:p-16 p-8 flex flex-col bg-white opacity-100 z-20 drop-shadow-xl w-screen xl:w-[30vw] lg:w-[50vw] md:w-[70vw]'>
 						
-						<h2 className='md:text-2xl text-xl font-sans font-bold text-center mb-8 md:mb-12'>
-							Interested in working together?<br/> Tell us a bit about your project.
+						<h2 className='md:text-2xl text-xl font-sans font-semibold text-center mb-2'>
+							Interested in working together?</h2><h2 className='md:text-2xl text-xl font-sans font-semibold text-center mb-8 md:mb-12'> Let's talk. 707.961.0911
 						</h2>
+						<h3 className='text-xl mb-2'>Tell us a little about your project.</h3>
 						<input type='hidden' name='form-name' value='contact' />
 						<div className={'flex '}>
 							<div
@@ -70,7 +71,7 @@ export default function Contact() {
 												id='firstName'
 												placeholder='First Name'
 												className={
-													'border-solid border-2 rounded border-gray-600 my-2 pl-2 w-full flex-auto'
+													'border-solid border-2  border-gray-600 my-2 pl-2 w-full flex-auto'
 												}
 											/>
 											{errors.firstName?.type ===
@@ -87,7 +88,7 @@ export default function Contact() {
 												id='lastName'
 												placeholder='Last Name'
 												className={
-													'border-solid border-2 rounded border-gray-600  my-2 pl-2 flex-auto w-full'
+													'border-solid border-2  border-gray-600  my-2 pl-2 flex-auto w-full'
 												}
 											/>
 										</label>
@@ -102,7 +103,7 @@ export default function Contact() {
 												required: true,
 											})}
 											className={
-												'border-solid border-2 rounded border-gray-600 justify-start w-full my-2 pl-2'
+												'border-solid border-2  border-gray-600 justify-start w-full my-2 pl-2'
 											}
 										/>
 										{errors.email?.type === 'required' &&
@@ -116,9 +117,9 @@ export default function Contact() {
 											name='question'
 											id='question'
 											rows='3'
-											placeholder='Project Details'
+											placeholder="Property address and description project"
 											className={
-												'border-solid border-2 rounded border-gray-600 w-full my-2 pl-2'
+												'border-solid border-2  border-gray-600 w-full my-2 pl-2'
 											}
 										/>
 										{errors.question?.type === 'required' &&
@@ -126,7 +127,7 @@ export default function Contact() {
 									</label>
 									<button
 										type='submit'
-										className='bg-yellow-500 text-gray-800 font-semibold px-8 py-1 mx-2 rounded m-4'>
+										className='bg-yellow-500 text-gray-800 font-semibold px-8 py-2 mx-2 m-4'>
 										Send
 									</button>
 								</div>

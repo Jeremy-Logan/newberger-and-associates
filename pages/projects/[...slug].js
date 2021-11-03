@@ -102,19 +102,19 @@ function Project({ project }) {
 						transition={{ duration: 0.5, delay: 0.3 }}
 						className='absolute hidden md:block left-[5vw] right-[5vw] md:left-[50vw] top-[400px] md:h-[50vh] md:w-[40vw] md:top-60 xl:h-[60vh]'>
 						<Image
-							src={project.portfolioImages[5]}
+							src={project.portfolioImages[5].image}
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-								project.portfolioImages[0]
+								project.portfolioImages[5].image
 							}
 						/>
 					</motion.div>
 				</motion.div>
 				<div className='md:h-96 h-16'></div>
-				<div className='md:h-96 mx-4 md:mx-[25vw] font-bold '>
+				<div className='md:h-auto mx-4 md:mx-[25vw] font-bold '>
 					<h3 className='text-2xl font-bold text-yellow-600 font-serif'>
 						{project.headline}
 					</h3>
@@ -137,28 +137,30 @@ function Project({ project }) {
 						) : (
 							<div className=' h-[60vh] relative md:row-span-2 '>
 								<Image
-									src={project.portfolioImages[0]}
+									src={project.portfolioImages[0].image}
 									layout='fill'
 									objectFit='cover'
+									objectPosition= {project.portfolioImages[0].position}
 									placeholder='blur'
 									blurDataURL={
 										'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-										project.portfolioImages[0]
+										project.portfolioImages[0].image
 									}
 								/>
 							</div>
 						)}
 					</SlideIn>
 					<SlideIn originX={200}>
-						<div className=' h-[60vh] relative md:row-span-2 md:mt-[30vh]'>
+						<div className=' h-[60vh] relative md:row-span-2 md:mt-[30vh] '>
 							<Image
-								src={project.portfolioImages[1]}
+								src={project.portfolioImages[1].image}
 								layout='fill'
 								objectFit='cover'
+								objectPosition= {project.portfolioImages[1].position}
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									project.portfolioImages[1]
+									project.portfolioImages[1].image
 								}
 							/>
 						</div>
@@ -166,13 +168,14 @@ function Project({ project }) {
 					<SlideIn originX={-200}>
 						<div className='overflow-hidden h-[60vh] relative md:row-span-2 md:mt-[-30vh]'>
 							<Image
-								src={project.portfolioImages[2]}
+								src={project.portfolioImages[2].image}
 								layout='fill'
 								objectFit='cover'
+								objectPosition= {project.portfolioImages[2].position}
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									project.portfolioImages[2]
+									project.portfolioImages[2].image
 								}
 							/>
 						</div>
@@ -180,13 +183,14 @@ function Project({ project }) {
 					<SlideIn originX={200}>
 						<div className=' h-[60vh] relative md:row-span-2 md:row-start-5'>
 							<Image
-								src={project.portfolioImages[3]}
+								src={project.portfolioImages[3].image}
 								layout='fill'
 								objectFit='cover'
+								objectPosition= {project.portfolioImages[3].position}
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									project.portfolioImages[3]
+									project.portfolioImages[3].image
 								}
 							/>
 						</div>
@@ -194,13 +198,14 @@ function Project({ project }) {
 					<SlideIn originX={-200}>
 						<div className='overflow-hidden h-[60vh] relative md:row-span-2 md:mt-[-30vh]'>
 							<Image
-								src={project.portfolioImages[4]}
+								src={project.portfolioImages[4].image}
 								layout='fill'
 								objectFit='cover'
+								objectPosition= {project.portfolioImages[4].position}
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									project.portfolioImages[4]
+									project.portfolioImages[4].image
 								}
 							/>
 						</div>
@@ -208,13 +213,14 @@ function Project({ project }) {
 					<SlideIn originX={200}>
 						<div className=' h-[60vh] relative md:row-span-2 md:row-start-5'>
 							<Image
-								src={project.portfolioImages[5]}
+								src={project.portfolioImages[5].image}
 								layout='fill'
 								objectFit='cover'
+								objectPosition= {project.portfolioImages[5].position}
 								placeholder='blur'
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-									project.portfolioImages[3]
+									project.portfolioImages[5].image
 								}
 							/>
 						</div>

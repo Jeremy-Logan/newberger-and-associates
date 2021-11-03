@@ -8,13 +8,13 @@ const Project = (props) => {
 				<div className='relative md:hidden w-screen md:w-1/3 h-[40vh] md:h-[70vh] mb-2 z-20 cursor-pointer'>
 					<Link href={`./projects${props.path}`} passHref>
 						<Image
-							src={props.portfolioImages[0]}
+							src={props.portfolioImages[0].image}
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-								props.portfolioImages[0]
+								props.portfolioImages[0].image
 							}
 						/>
 					</Link>
@@ -44,13 +44,13 @@ const Project = (props) => {
 				<div className='relative hidden md:block w-screen md:w-1/3 h-[70vh] mb-12 md:mb-0 z-20 cursor-pointer'>
 					<Link href={`./projects${props.path}`} passHref>
 						<Image
-							src={props.portfolioImages[0]}
+							src={props.portfolioImages[0].image}
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-								props.portfolioImages[0]
+								props.portfolioImages[0].image
 							}
 						/>
 					</Link>
@@ -67,13 +67,13 @@ const ProjectFlipped = (props) => {
 				<div className='relative w-screen md:w-1/3 h-[40vh] md:h-[70vh] mb-2 z-20 cursor-pointer'>
 					<Link href={`./projects${props.path}`} passHref>
 						<Image
-							src={props.portfolioImages[0]}
+							src={props.portfolioImages[0].image}
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL={
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
-								props.portfolioImages[0]
+								props.portfolioImages[0].image
 							}
 						/>
 					</Link>

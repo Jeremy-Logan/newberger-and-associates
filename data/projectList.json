@@ -5,18 +5,18 @@
 			"title": "Breezy",
 			"path": "/breezy",
 			"category": "RESIDENTIAL",
-			"features": ["GLASS STAIRCASE", "CYPRESS TREES", "ALUMINUM"],
-			"headline": "BRIGHT AND BRINY",
-			"description": "This Mendocino coastal home was awarded the HGTV Sizzling Outdoor Kitchen of the Year Award for its airy and open outdoor kitchen that features a wood fired rotisserie, retractable roof and exposed steel beams. Inside, there is a traditional kitchen as well. Built for a family whose raison d’etre is food and nourishing people, it’s not surprising that these two rooms are the focal point of the home. The indoor kitchen features stainless steel countertops and marble flooring tiles. Glass and wood are the predominant materials in the home. \n \n Not wanting to limit the views or the light into the house, the stair systems throughout are crafted with glass, steel cable guard rails and open steps. This enhances air circulation as well as creates a feeling of openness everywhere in the house. Through the floor to ceiling windows, all of the rooms in the home have unobstructed views of the ocean as well as of the expansive gardens filled with native grasses and shrubs.",
+			"features": ["GLASS, STEEL, CONCRETE"],
+			"headline": "CLIFF HOUSE",
+			"description": "This Mendocino coastal home was awarded the HGTV Sizzling Outdoor Kitchen of the Year award for its airy and open outdoor kitchen that features a wood fired rotisserie, retractable roof and exposed steel beams. Inside, the “traditional” kitchen features polished concrete floors, stainless steel countertops and breathtaking views through counter to ceiling windows. Built for a family whose raison d’etre is food and nourishing people, these two rooms are the focal point of the home. Redwood shingle siding is used to complement the glass, concrete and steel predominant throughout the house, offering warmth and a softness to the space. \n \n The stair systems are crafted with glass landings, steel cable guard rails and open steps. This enhances air circulation and creates a feeling of openness everywhere in the house. The glass bridge and balcony joining the two master suites ensures maximum light flow to all areas of the house. \n \n All rooms in the home provide unobstructed views of the ocean through floor to ceiling windows.The outdoor kitchen enjoys proximity to and views of the expansive coastal gardens.",
 			"heroImage": "v1621037931/Newberger%20and%20Associates/bauccio-12_typiu8.jpg",
 			"portfolioImages": [
-				"c_crop,g_north,h_1902,w_2373,y_994/v1621037924/Newberger%20and%20Associates/bauccio-04_fsqxnd.jpg",
-				"c_crop,h_2074,w_2387/v1621037924/Newberger%20and%20Associates/bauccio-03_i6b9fc.jpg",
-				"v1621037924/Newberger%20and%20Associates/bauccio-05_ms1eao.jpg",
-				"v1621037926/Newberger%20and%20Associates/bauccio-07_dxremg.jpg",
-				"v1621037930/Newberger%20and%20Associates/bauccio-09_bxzssl.jpg",
-				"v1621037929/Newberger%20and%20Associates/bauccio-08_nhw064.jpg",
-				"v1621037932/Newberger%20and%20Associates/bauccio-10_xeqp8c.jpg"
+				{ "image": "c_crop,g_north,h_1902,w_2373,y_994/v1621037924/Newberger%20and%20Associates/bauccio-04_fsqxnd.jpg"},
+				{ "image": "c_crop,h_2074,w_2387/v1621037924/Newberger%20and%20Associates/bauccio-03_i6b9fc.jpg", "position": "center"},
+				{ "image": "v1621037924/Newberger%20and%20Associates/bauccio-05_ms1eao.jpg"},
+				{ "image": "v1621037926/Newberger%20and%20Associates/bauccio-07_dxremg.jpg"},
+				{ "image": "v1621037930/Newberger%20and%20Associates/bauccio-09_bxzssl.jpg"},
+				{ "image": "v1621037929/Newberger%20and%20Associates/bauccio-08_nhw064.jpg"},
+				{ "image": "v1621037932/Newberger%20and%20Associates/bauccio-10_xeqp8c.jpg"}
 			]
 		},
 		{
@@ -24,18 +24,18 @@
 			"title": "Arching",
 			"path": "/arching",
 			"category": "RESIDENTIAL",
-			"features": ["ROOFTOP WALKWAY", "BLUFF", "REDWOOD"],
+			"features": ["ELEVATED WALKWAY", "BLUFF", "REDWOOD"],
 			"headline": "SEASIDE SECLUSION",
-			"description": "The pleasing minimalist design and striking vertical redwood siding are the hallmarks of the Sea Arches home. Arranged as a cohesive compound with distinct structures and complimentary roof lines, the home is perched high on the cliff overlooking the Pacific. From the walkway that extends from the second floor, one can stargaze, watch passing pods of whales or simply sit and meditate on the view. The home has wonderful privacy, with unobstructed views to natural open space. \n \n On either side of the 18 foot great room are separate living quarters. Each roof is peaked toward the outside of the structure, drawing your eye up and out then sweeping it back in again. This creates movement and tension between the buildings while also creating breathtaking interiors.",
+			"description": "The pleasing minimalist design and striking vertical redwood siding are the hallmarks of this home. Arranged as a cohesive compound with distinct structures and complimentary roof lines, the home is perched high on the cliff overlooking the Pacific. From the elevated walkway that extends from the second floor mezzanine, one can stargaze, watch passing pods of whales or simply sit and meditate on the view. The home has wonderful privacy, with unobstructed views to natural open space. Living quarters adjoin  the great room, boasting seventeen foot high ceilings. The two primary rooftops of the living quarters are peaked in opposing directions, creating a playful dynamic with the scenery outside and creating breathtaking space inside.",
 			"heroImage": "v1627675828/Newberger%20and%20Associates/Sea-Arches-06_qr4xi9.jpg",
 			"video": "https://www.youtube.com/watch?v=CepbGS8wEGc&t=4s",
 			"portfolioImages": [
-				"v1627675843/Newberger%20and%20Associates/Sea-Arches-02_qarnbq.jpg",
-				"v1627675828/Newberger%20and%20Associates/Sea-Arches-06_qr4xi9.jpg",
-				"v1627675827/Newberger%20and%20Associates/Sea-Arches-03_dscn4m.jpg",
-				"v1627675828/Newberger%20and%20Associates/Sea-Arches-05_fwp1pr.jpg",
-				"v1627675843/Newberger%20and%20Associates/Sea-Arches-04_vfih3a.jpg",
-				"v1627675842/Newberger%20and%20Associates/Sea-Arches-01_p1lqtx.jpg"
+				{ "image": "v1627675843/Newberger%20and%20Associates/Sea-Arches-02_qarnbq.jpg"},
+				{ "image": "v1627675828/Newberger%20and%20Associates/Sea-Arches-06_qr4xi9.jpg"},
+				{ "image": "v1627675827/Newberger%20and%20Associates/Sea-Arches-03_dscn4m.jpg"},
+				{ "image": "v1627675828/Newberger%20and%20Associates/Sea-Arches-05_fwp1pr.jpg"},
+				{ "image": "v1627675843/Newberger%20and%20Associates/Sea-Arches-04_vfih3a.jpg"},
+				{ "image": "v1627675842/Newberger%20and%20Associates/Sea-Arches-01_p1lqtx.jpg"}
 
 			]
 		},
@@ -46,15 +46,15 @@
 			"category": "RESIDENTIAL",
 			"features": ["RAMMED EARTH", "HILLTOP", "OAK"],
 			"headline": "EMBODIED ENERGY RAMMED EARTH",
-			"description": "Boasting sweeping views of the Sonoma Mountains, this home is naturally integrated into the rolling hilltop. It is constructed with environmentally sensitive materials and nestled into a bright forest of oak trees which add shade and relief on hot days. 14 inch thick rammed earth walls also help keep the home cool, reducing the need for artificial environmental conditioning. Truly being a part of the land, rammed earth structures use primarily local materials. This means that there is less impact on the environment due to the low carbon emissions and the little waste it produces. \n \n The standing seam copper roof compliments the California grasses and trees in hue and texture. Outside the home, visitors can take a dip in the infinity pool while watching a game of bocce being played in the garden. Or if sitting with a cocktail is more their style, the redwood and poured concrete shade trellis offers a relaxing respite from the heat.",
+			"description": "Boasting sweeping views of the Sonoma Mountains, this home is naturally integrated into the rolling hilltop. It is constructed with environmentally sensitive materials and nestled into a bright forest of oak trees which add shade and relief on hot days. The standing seam copper roof compliments the California grasses and trees around the home in both hue and texture. \n \n The custom built steel, rebar and concrete trellis spans the edge of the infinity pool patio, which looks out over the lower dining patio, bocce court and dramatic landscape. \n \n Fourteen inch thick rammed earth walls keep the home inherently cool, reducing the need for air conditioning. Truly being a part of the land, rammed earth structures use primarily local materials, meaning there is less impact on the environment due to the low carbon emissions and the little waste it produces.",
 			"heroImage": "v1628109814/Newberger%20and%20Associates/schuh-03_mcwbfq.jpg",
 			"portfolioImages": [
-				"v1628109813/Newberger%20and%20Associates/schuh-04_daimsc.jpg",
-				"v1628109812/Newberger%20and%20Associates/schuh-06_ktz6vd.jpg",
-				"v1628109812/Newberger%20and%20Associates/schuh-05_ycm4lm.jpg",
-				"v1628109813/Newberger%20and%20Associates/schuh-01_xwthdh.jpg",
-				"v1628109814/Newberger%20and%20Associates/schuh-02_oybmuz.jpg",
-				"v1628109811/Newberger%20and%20Associates/schuh-08_woo0gj.jpg"
+				{ "image": "v1628109813/Newberger%20and%20Associates/schuh-04_daimsc.jpg"},
+				{ "image": "v1628109812/Newberger%20and%20Associates/schuh-06_ktz6vd.jpg"},
+				{ "image": "v1628109812/Newberger%20and%20Associates/schuh-05_ycm4lm.jpg"},
+				{ "image": "v1628109813/Newberger%20and%20Associates/schuh-01_xwthdh.jpg"},
+				{ "image": "v1628109814/Newberger%20and%20Associates/schuh-02_oybmuz.jpg"},
+				{ "image": "v1628109811/Newberger%20and%20Associates/schuh-08_woo0gj.jpg"}
 			]
 		},
 		{
@@ -67,12 +67,12 @@
 			"description": "Brutalist architecture is characterized by rigid geometry, raw poured concrete and blocky lines. This unique residence borrows from this style but softens it around the edges creating a home that is meant to be lived in and enjoyed, while maintaining the austere permanence of the genre. \n \n The man made elements contrast and compliment the natural environment, the windows allow nature in, charred cedar accents the smooth concrete warming up the living space while altogether they create a comfortable and unique home.",
 			"heroImage": "v1620326962/Newberger%20and%20Associates/braverman-07_d0up7q.jpg",
 			"portfolioImages": [
-				"v1620327179/Newberger%20and%20Associates/braverman-05_wag9we.jpg",
-				"v1620326962/Newberger%20and%20Associates/braverman-04_owlzez.jpg",
-				"v1620326962/Newberger%20and%20Associates/braverman-07_d0up7q.jpg",
-				"v1620326963/Newberger%20and%20Associates/braverman-03_n55jti.jpg",
-				"v1620326963/Newberger%20and%20Associates/braverman-02_ynr6k8.jpg",
-				"v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg"
+				{ "image": "v1620327179/Newberger%20and%20Associates/braverman-05_wag9we.jpg"},
+				{ "image": "v1620326962/Newberger%20and%20Associates/braverman-04_owlzez.jpg"},
+				{ "image": "v1620326962/Newberger%20and%20Associates/braverman-07_d0up7q.jpg"},
+				{ "image": "v1620326963/Newberger%20and%20Associates/braverman-03_n55jti.jpg"},
+				{ "image": "v1620326963/Newberger%20and%20Associates/braverman-02_ynr6k8.jpg"},
+				{ "image": "v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg"}
 				
 			]
 		},
@@ -83,15 +83,15 @@
 			"category": "RESIDENTIAL",
 			"features": ["WOOD", "CONCRETE", "GLASS"],
 			"headline": "MODERN COASTAL",
-			"description": "This home fully embraces Northern California coastal living. Positioned to make the most of the stunning view of the Pacific, this home sweeps across the property, mimicking the natural curve of the ocean shore. Warm wood, straight lines and curving concrete are woven together to create a home that compliments the rolling hills and rugged coast line. It is truly a home in and of the land.",
+			"description": "This home fully embraces Northern California coastal living. Positioned to make the most of the stunning views of the Pacific, this home sweeps across the property, mimicking the natural curve of the ocean shore. Warm wood, straight lines and curving concrete weave together to create a home that compliments the rolling hills and rugged coast line. It is truly a home in and of the land. \n \n The entry walkway features views across the standing seam copper roofing to the ocean. A unique redwood trellis leads to a handcrafted redwood entry door that opens to the foyer with freestanding art wall covered in textural ceramic tile.  One is drawn around the art wall, revealing the great room with fireplace and breathtaking views through floor to ceiling windows. The open floor plan allows light to flow throughout the rooms, creating a calm inviting atmosphere. Light reflects on the relief of the fireplace surround, producing a lovely play between color, light and texture. Natural stone countertops are the focal point of the kitchen. The sweeping hardwood decking with stainless steel guardrail  flows along the ocean side of the home creating a gorgeous space for enjoying the nature that surrounds you.",
 			"heroImage": "v1620328429/Newberger%20and%20Associates/brotherton-10_ekzeph.jpg",
 			"portfolioImages": [
-				"v1620328479/Newberger%20and%20Associates/brotherton-18_mvk4ge.jpg",
-				"v1620328477/Newberger%20and%20Associates/brotherton-14_ctea7s.jpg",
-				"v1620328446/Newberger%20and%20Associates/brotherton-12_y9d857.jpg",
-				"v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg",
-				"v1620328488/Newberger%20and%20Associates/brotherton-20_jv61fs.jpg",
-				"v1620328528/Newberger%20and%20Associates/brotherton-17_gmbgfg.jpg"
+				{ "image": "v1620328479/Newberger%20and%20Associates/brotherton-18_mvk4ge.jpg"},
+				{ "image": "v1620328477/Newberger%20and%20Associates/brotherton-14_ctea7s.jpg", "position": "right"},
+				{ "image": "v1620328446/Newberger%20and%20Associates/brotherton-12_y9d857.jpg"},
+				{ "image": "v1620327405/Newberger%20and%20Associates/brotherton-06_ivbdxi.jpg"},
+				{ "image": "v1620328488/Newberger%20and%20Associates/brotherton-20_jv61fs.jpg"},
+				{ "image": "v1620328528/Newberger%20and%20Associates/brotherton-17_gmbgfg.jpg"}
 			]
 		},
 		{
@@ -99,17 +99,17 @@
 			"title": "Infinite",
 			"path": "/infinite",
 			"category": "RESIDENTIAL",
-			"features": ["WESTERN RED CEDAR", "GLASS", "STEEL"],
+			"features": ["REDWOOD", "GLASS", "STEEL"],
 			"headline": "PLACE OF REFLECTION",
-			"description": "Framed by a custom red cedar pergola, a poured concrete bridge guides the visitor over a soft reflecting pool to this bluff top home. Directly overlooking a nationally protected view shed the house is nestled into its environment with care. The sensitive coastal needs of the surrounding landscape were considered and impacts softened through the use of highly efficient and sustainable materials.",
+			"description": "Framed by a custom redwood pergola, a poured concrete bridge leads over a shimmering reflecting pool to this bluff top home. Directly overlooking a nationally protected view shed, the house is nestled into its environment with care: the sensitive coastal needs of the surrounding landscape were considered and impacts  reduced through the use of highly efficient and sustainable materials. Inside, the curvilinear roof of the great room slopes upward toward the Pacific, leading to the floor to ceiling windows, which showcase the extraordinary view and bring sunlight through the entire space. The open floor plan ensures unobstructed views from anywhere in the house and highlights the expansive patio that wraps the ocean side of the home.",
 			"heroImage": "v1620327848/Newberger%20and%20Associates/shia-02_w5azfh.jpg",
 			"portfolioImages": [
-				"v1620327848/Newberger%20and%20Associates/shia-01_kzhii1.jpg",
-				"v1620327849/Newberger%20and%20Associates/shia-06_l9es0m.jpg",
-				"v1620327849/Newberger%20and%20Associates/shia-08_mrxwrs.jpg",
-				"v1620327848/Newberger%20and%20Associates/shia-03_neujzq.jpg",
-				"v1620327853/Newberger%20and%20Associates/shia-07_qx8ulx.jpg",
-				"v1633393658/Newberger%20and%20Associates/Infinite_Interior_1_dwhbk5.jpg"
+				{ "image": "v1620327848/Newberger%20and%20Associates/shia-01_kzhii1.jpg"},
+				{ "image": "v1620327849/Newberger%20and%20Associates/shia-06_l9es0m.jpg"},
+				{ "image": "v1620327849/Newberger%20and%20Associates/shia-08_mrxwrs.jpg"},
+				{ "image": "v1620327848/Newberger%20and%20Associates/shia-03_neujzq.jpg"},
+				{ "image": "v1620327853/Newberger%20and%20Associates/shia-07_qx8ulx.jpg"},
+				{ "image": "v1633393658/Newberger%20and%20Associates/Infinite_Interior_1_dwhbk5.jpg"}
 			]
 		},
 		{
@@ -119,15 +119,15 @@
 			"category": "RESIDENTIAL",
 			"features": ["COPPER FLUE", "GRANITE", "FLAGSTONE"],
 			"headline": "FAMILY GET-AWAY",
-			"description": "This beautiful home was built for family gatherings, whale watching and star gazing. Situated on the Albion Headlands, the shiplap western red cedar siding integrates seamlessly into the landscape. The warm flagstone patio surrounds the structure, leading visitors down and around the house to enjoy the view. Inside, visitors can warm their toes by the magnificent forest granite fireplace. The copper flue pipe adds brilliance and sparkle as the focal point of the great room.",
+			"description": "This beautiful home was built for family gatherings, whale watching and star gazing. Situated on the Albion Headlands, the  beveled western red cedar siding integrates seamlessly into the landscape. The warm flagstone patio originates at the entry, wraps the South and West facades and provides extraordinary ocean views. \n \n Inside, the focal point is the main living room with sloping redwood ceiling and magnificent forest granite fireplace. Its copper flue pipe adds brilliance and sparkle to the great room and creates an inviting atmosphere that is perfect for relaxing, socializing or having a fireside chat.  Copper is also used playfully in the powder room vanity and for durability at the exterior lighting surrounds.",
 			"heroImage": "v1620330926/Newberger%20and%20Associates/wolfson-03_qlnslm.jpg",
 			"portfolioImages": [
-				"v1620330920/Newberger%20and%20Associates/wolfson-04_uva4un.jpg",
-				"v1620330919/Newberger%20and%20Associates/wolfson-07_iipjfa.jpg",
-				"v1633442694/Newberger%20and%20Associates/wolfson-02-ltr_e1xs0q.jpg",
-				"v1620330918/Newberger%20and%20Associates/wolfson-06_dapdgr.jpg",
-				"v1620330930/Newberger%20and%20Associates/wolfson-10_tjrdjh.jpg",
-				"v1620330927/Newberger%20and%20Associates/wolfson-09_vj3ofd.jpg"
+				{ "image": "v1620330920/Newberger%20and%20Associates/wolfson-04_uva4un.jpg"},
+				{ "image": "v1620330919/Newberger%20and%20Associates/wolfson-07_iipjfa.jpg"},
+				{ "image": "v1633442694/Newberger%20and%20Associates/wolfson-02-ltr_e1xs0q.jpg"},
+				{ "image": "v1620330918/Newberger%20and%20Associates/wolfson-06_dapdgr.jpg"},
+				{ "image": "v1620330930/Newberger%20and%20Associates/wolfson-10_tjrdjh.jpg"},
+				{ "image": "v1620330927/Newberger%20and%20Associates/wolfson-09_vj3ofd.jpg"}
 			]
 		},
 		{
@@ -135,17 +135,17 @@
 			"title": "Expansive",
 			"path": "/expansive",
 			"category": "RESIDENTIAL",
-			"features": ["TRAVERTINE", "COPPER", "ENERGY EFFICIENT"],
+			"features": ["TRAVERTINE", "COPPER", "CALIFORNIA WALNUT"],
 			"headline": "PACIFIC NORTHWEST ARCHITECTURE",
-			"description": "Seated on a dramatic ridgeline high above the Pacific Ocean, this coastal home is masterfully terraced into its landscape. The copper roofing and western red cedar siding mimic the trees that surround the home in color, tone, texture and feel. \n \n This contemporary home is extremely energy efficient boasting thermally broken windows and doors that run the full length of the house, gracefully blurring the indoors with the outdoor spaces. Just outside the great room, visitors can follow the expansive travertine patio that leads to the ocean front soaking tub, enjoying the views of the sweeping landscape that runs directly toward the cliffs.",
+			"description": "Seated on a dramatic ridgeline high above the Pacific Ocean, this coastal home is masterfully terraced into its landscape. The copper standing seam roofing and western red cedar horizontal siding mimic the trees that surround the home in color, tone, texture and feel. This contemporary home has extremely energy efficient windows and doors that run the full length of the house, gracefully blurring the indoors with the outdoor spaces. The expansive travertine patio leads to the ocean front soaking tub that has an unobstructed view of the sweeping landscape. Inside the house, the living areas sit on either side of the central pyramid roofed great room, both with stunning ocean views and an abundance of natural light. California walnut cabinets create a warm and rich atmosphere in the kitchen, creating a space that is altogether inviting and breathtaking.",
 			"heroImage": "v1620327477/Newberger%20and%20Associates/clapperton-03_d1zveg.jpg",
 			"portfolioImages": [
-				"v1633393659/Newberger%20and%20Associates/expansive-grounds_oip280.jpg",
-				"v1620327476/Newberger%20and%20Associates/clapperton-02_gidsgh.jpg",
-				"v1620327477/Newberger%20and%20Associates/clapperton-04_ya1tcw.jpg",
-				"v1620327475/Newberger%20and%20Associates/clapperton-05_acaula.jpg",
-				"v1633393677/Newberger%20and%20Associates/Expansive_Guest_House_pgkakf.jpg",
-				"v1633393658/Newberger%20and%20Associates/Infinite_Interior_1_dwhbk5.jpg"
+				{ "image": "v1633393659/Newberger%20and%20Associates/expansive-grounds_oip280.jpg"},
+				{ "image": "v1620327476/Newberger%20and%20Associates/clapperton-02_gidsgh.jpg"},
+				{ "image": "v1620327477/Newberger%20and%20Associates/clapperton-04_ya1tcw.jpg"},
+				{ "image": "v1620327475/Newberger%20and%20Associates/clapperton-05_acaula.jpg"},
+				{ "image": "v1633393677/Newberger%20and%20Associates/Expansive_Guest_House_pgkakf.jpg"},
+				{ "image": "v1633393658/Newberger%20and%20Associates/Infinite_Interior_1_dwhbk5.jpg"}
 			]
 		},
 		{
@@ -153,17 +153,17 @@
 			"title": "Boundless",
 			"path": "/boundless",
 			"category": "RESIDENTIAL",
-			"features": ["COPPER", "THERMAL BREAK", "RED CEDAR"],
+			"features": ["COPPER", "LIMESTONE", "RED CEDAR"],
 			"headline": "MID-CENTURY MODERN",
-			"description": "Seated directly on the cliffs, this family retreat boasts a 270 degree unobstructed view of the Pacific ocean. The formerly undeveloped property is the only private land virtually surrounded by the serene California State park. It has been integrated into the landscape to honor the sensitive habitat and to maintain the pristine nature of the public space around it. Its both gentle and imposing copper standing seam roof welcomes the visitor upon entry to the property. The entryway then leads them directly into the great room and the breathtaking views. \n \n The walls facing the ocean are comprised entirely of thermally broken aluminum windows and doors making this spectacular house extremely energy efficient. The living spaces flank the common area and are situated perpendicular to each other mimicking the undulating coastline and creating the sweeping views.",
+			"description": "This family retreat is seated directly on the cliff edge, and offers a 270 degree unobstructed view of the Pacific ocean.  The newly constructed residence, within the exact footprint of an existing 1870’s residence, is virtually surrounded by a serene California State Natural Reserve. \n \n It is carefully integrated into the landscape to maintain the environmentally sensitive habitat area and honor the pristine nature of the public space around it. Its copper standing seam roof is both imposing and gentle, contrasting well and complementing  the nonlinear, organic environment. The see through foyer in the middle of the house leads  to, and separates the great room on the South side and the private living quarters on the North. Floor to ceiling windows composed of energy efficient aluminum frames and glazing showcase the extraordinary ocean views. The public vs. private living spaces are situated perpendicular to each other, with their roof lines mimicking the undulating coastline and creating sweeping views from every room.",
 			"heroImage": "v1633376522/Newberger%20and%20Associates/leff-05-ltr_utepax.jpg",
 			"portfolioImages": [
-				"v1633376523/Newberger%20and%20Associates/leff-02-ltr_rg8oyq.jpg",
-				"v1633376523/Newberger%20and%20Associates/leff-03-ltr_cfkn33.jpg",
-				"v1633376523/Newberger%20and%20Associates/leff-06-ltr_nqtftz.jpg",
-				"v1633376525/Newberger%20and%20Associates/leff-04-ltr_rzmby5.jpg",
-				"v1633376522/Newberger%20and%20Associates/leff-05-ltr_utepax.jpg",
-				"v1621035700/Newberger%20and%20Associates/leff-01_loituo.jpg"
+				{ "image": "v1633376523/Newberger%20and%20Associates/leff-02-ltr_rg8oyq.jpg"},
+				{ "image": "v1633376523/Newberger%20and%20Associates/leff-03-ltr_cfkn33.jpg"},
+				{ "image": "v1633376523/Newberger%20and%20Associates/leff-06-ltr_nqtftz.jpg"},
+				{ "image": "v1633376525/Newberger%20and%20Associates/leff-04-ltr_rzmby5.jpg"},
+				{ "image": "v1633376522/Newberger%20and%20Associates/leff-05-ltr_utepax.jpg"},
+				{ "image": "v1621035700/Newberger%20and%20Associates/leff-01_loituo.jpg"}
 			]
 		},
 		{
@@ -176,12 +176,12 @@
 			"description": "This grand residence is composed of distinct living areas that give privacy while also offering a shared space to gather. The main bedroom suite is situated on one side of the house, while the guest suite sits on the other, each self contained. Joining the two is the great room where guests and host can mingle and enjoy each others’ company,  seamlessly transitioning the indoor and outdoor living spaces. \n \n The incredible ocean view encourages use of these spaces for relaxation and rejuvenation through a protected ocean front patio. Seated high on the bluff edge, the Caspar Cove house integrates itself within the environment, carefully considering the sensitive environment in which it lives. Geotechnical analysis determined the ideal setback for the house, taking into consideration erosion and bluff retreat.",
 			"heroImage": "v1620328058/Newberger%20and%20Associates/weger-04_y0xauo.jpg",
 			"portfolioImages": [
-				"v1620328057/Newberger%20and%20Associates/weger-05_wvpgr6.jpg",
-				"v1620328060/Newberger%20and%20Associates/weger-06_l12k5d.jpg",
-				"v1620328059/Newberger%20and%20Associates/weger-02_o3sdxg.jpg",
-				"v1620328059/Newberger%20and%20Associates/weger-03_ofgmkm.jpg",
-				"v1620328058/Newberger%20and%20Associates/weger-04_y0xauo.jpg",
-				"v1620328059/Newberger%20and%20Associates/weger-01_cgh7dn.jpg"
+				{ "image": "v1620328057/Newberger%20and%20Associates/weger-05_wvpgr6.jpg"},
+				{ "image": "v1620328060/Newberger%20and%20Associates/weger-06_l12k5d.jpg"},
+				{ "image": "v1620328059/Newberger%20and%20Associates/weger-02_o3sdxg.jpg"},
+				{ "image": "v1620328059/Newberger%20and%20Associates/weger-03_ofgmkm.jpg"},
+				{ "image": "v1620328058/Newberger%20and%20Associates/weger-04_y0xauo.jpg"},
+				{ "image": "v1620328059/Newberger%20and%20Associates/weger-01_cgh7dn.jpg"}
 			]
 		},
 		
@@ -195,13 +195,13 @@
 			"headline": "HISTORIC MEDITERRANEAN-STYLE RENOVATION",
 			"description": "Baxter Winery is run by a young couple with a long history of wine making and wine expertise. Situated down the hill from the vineyards that produce their grapes, the Baxter tasting room nestles private outdoor tasting spaces into the warm, dry Mediterranean style garden. Olive trees cast dappled shade over the tables while swaying grasses sing delicately in the breeze creating a relaxing and inspiring atmosphere. The unique one of a kind redwood sunshade adds texture and comfort to this already lovely space. Copper lanterns lead visitors past the soft plaster planters at the entrance and through to the custom tasting bar. Inside, the exposed Douglas Fir ceiling beams and ceramic tile plank floor add to the Mediterranean style established in the garden. \n \n This site originally housed the Philo Post Office. The entirety of the site was extensively renovated and landscaped. While considering the conversion to the tasting room, it was important to all involved to protect and respect the historic integrity of the original site, keeping the original structure and footprint intact. ",
 			"heroImage": "v1620324755/Newberger%20and%20Associates/baxter-winery-10_mbxyst.jpg",
-			"portfolioImages": [
-				"v1620324762/Newberger%20and%20Associates/baxter-winery-07_vbauvi.jpg",
-				"v1633395567/Newberger%20and%20Associates/baxter-before-after-ltr_cc2gsw.jpg",
-				"v1620324738/Newberger%20and%20Associates/baxter-winery-05_pgwsgb.jpg",
-				"v1620324743/Newberger%20and%20Associates/baxter-winery-04_mk1w5p.jpg",
-				"v1620324742/Newberger%20and%20Associates/baxter-winery-03_zdcfmh.jpg",
-				"v1620324719/Newberger%20and%20Associates/baxter-winery-01_mznmx6.jpg"
+			"portfolioImages": [				
+				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-before02_l2pw2q.jpg", "position": "bottom"},
+				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-after02_vjoqb7.jpg", "position": "bottom"},
+				{ "image": "v1620324762/Newberger%20and%20Associates/baxter-winery-07_vbauvi.jpg"},
+				{ "image": "v1620324738/Newberger%20and%20Associates/baxter-winery-05_pgwsgb.jpg"},
+				{ "image": "v1620324742/Newberger%20and%20Associates/baxter-winery-03_zdcfmh.jpg"},
+				{ "image": "v1620324719/Newberger%20and%20Associates/baxter-winery-01_mznmx6.jpg"}
 			]
 		}
 	]

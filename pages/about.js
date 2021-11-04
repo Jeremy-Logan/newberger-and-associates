@@ -76,7 +76,7 @@ export default function About() {
 							Michael Leventhal and Robert Schlosser. Todd joined
 							Leventhal Schlosser Newberger Architects as a
 							partner in 2007. Leventhal retired in 2009 and in
-							2020, Todd took full ownership.It is this long
+							2020, Todd took full ownership. It is this long
 							history of commitment to excellence that brings us
 							to where we are today.
 							<br />

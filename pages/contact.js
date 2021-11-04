@@ -117,7 +117,7 @@ export default function Contact() {
 											name='question'
 											id='question'
 											rows='3'
-											placeholder="Property address and description project"
+											placeholder="Property address and project description"
 											className={
 												'border-solid border-2  border-gray-600 w-full my-2 pl-2'
 											}

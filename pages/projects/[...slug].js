@@ -124,17 +124,7 @@ function Project({ project }) {
 				</div>
 				<div className='grid md:grid-cols-2 grid-rows-8 mt-24 mb-24'>
 					<SlideIn originX={-200}>
-						{project.video ? (
-							<ReactPlayer
-								url={project.video}
-								playing='true'
-								loop='true'
-								controls='false'
-								volume={0}
-								height='60vh'
-								width=''
-							/>
-						) : (
+						
 							<div className=' h-[60vh] relative md:row-span-2 '>
 								<Image
 									src={project.portfolioImages[0].image}
@@ -148,10 +138,21 @@ function Project({ project }) {
 									}
 								/>
 							</div>
-						)}
+						
 					</SlideIn>
 					<SlideIn originX={200}>
-						<div className=' h-[60vh] relative md:row-span-2 md:mt-[30vh] '>
+					
+						<div className=' h-[60vh] relative md:row-span-2 md:mt-[30vh] '>{project.video ? (
+							<ReactPlayer
+								url={project.video}
+								playing='true'
+								loop='true'
+								controls='false'
+								volume={0}
+								height='60vh'
+								width=''
+							/>
+						) : (
 							<Image
 								src={project.portfolioImages[1].image}
 								layout='fill'
@@ -162,7 +163,7 @@ function Project({ project }) {
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									project.portfolioImages[1].image
 								}
-							/>
+							/>)}
 						</div>
 					</SlideIn>
 					<SlideIn originX={-200}>

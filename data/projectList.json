@@ -144,8 +144,8 @@
 				{ "image": "v1620327476/Newberger%20and%20Associates/clapperton-02_gidsgh.jpg"},
 				{ "image": "v1620327477/Newberger%20and%20Associates/clapperton-04_ya1tcw.jpg"},
 				{ "image": "v1620327475/Newberger%20and%20Associates/clapperton-05_acaula.jpg"},
-				{ "image": "v1633393677/Newberger%20and%20Associates/Expansive_Guest_House_pgkakf.jpg"},
-				{ "image": "v1633393658/Newberger%20and%20Associates/Infinite_Interior_1_dwhbk5.jpg"}
+				{ "image": "v1633393657/Newberger%20and%20Associates/Expansive_Interior_jd81kp.jpg"},
+				{ "image": "v1633393677/Newberger%20and%20Associates/Expansive_Guest_House_pgkakf.jpg"}
 			]
 		},
 		{
@@ -155,7 +155,7 @@
 			"category": "RESIDENTIAL",
 			"features": ["COPPER", "LIMESTONE", "RED CEDAR"],
 			"headline": "MID-CENTURY MODERN",
-			"description": "This family retreat is seated directly on the cliff edge, and offers a 270 degree unobstructed view of the Pacific ocean.  The newly constructed residence, within the exact footprint of an existing 1870’s residence, is virtually surrounded by a serene California State Natural Reserve. \n \n It is carefully integrated into the landscape to maintain the environmentally sensitive habitat area and honor the pristine nature of the public space around it. Its copper standing seam roof is both imposing and gentle, contrasting well and complementing  the nonlinear, organic environment. The see through foyer in the middle of the house leads  to, and separates the great room on the South side and the private living quarters on the North. Floor to ceiling windows composed of energy efficient aluminum frames and glazing showcase the extraordinary ocean views. The public vs. private living spaces are situated perpendicular to each other, with their roof lines mimicking the undulating coastline and creating sweeping views from every room.",
+			"description": "This family retreat is seated directly on the cliff edge, and offers a 270 degree unobstructed view of the Pacific ocean.  The newly constructed residence, within the exact footprint of an existing 1970’s residence, is virtually surrounded by a serene California State Natural Reserve. \n \n It is carefully integrated into the landscape to maintain the environmentally sensitive habitat area and honor the pristine nature of the public space around it. Its copper standing seam roof is both imposing and gentle, contrasting well and complementing  the nonlinear, organic environment. The see through foyer in the middle of the house leads  to, and separates the great room on the South side and the private living quarters on the North. Floor to ceiling windows composed of energy efficient aluminum frames and glazing showcase the extraordinary ocean views. The public vs. private living spaces are situated perpendicular to each other, with their roof lines mimicking the undulating coastline and creating sweeping views from every room.",
 			"heroImage": "v1633376522/Newberger%20and%20Associates/leff-05-ltr_utepax.jpg",
 			"portfolioImages": [
 				{ "image": "v1633376523/Newberger%20and%20Associates/leff-02-ltr_rg8oyq.jpg"},
@@ -196,10 +196,10 @@
 			"description": "Baxter Winery is run by a young couple with a long history of wine making and wine expertise. Situated down the hill from the vineyards that produce their grapes, the Baxter tasting room nestles private outdoor tasting spaces into the warm, dry Mediterranean style garden. Olive trees cast dappled shade over the tables while swaying grasses sing delicately in the breeze creating a relaxing and inspiring atmosphere. The unique one of a kind redwood sunshade adds texture and comfort to this already lovely space. Copper lanterns lead visitors past the soft plaster planters at the entrance and through to the custom tasting bar. Inside, the exposed Douglas Fir ceiling beams and ceramic tile plank floor add to the Mediterranean style established in the garden. \n \n This site originally housed the Philo Post Office. The entirety of the site was extensively renovated and landscaped. While considering the conversion to the tasting room, it was important to all involved to protect and respect the historic integrity of the original site, keeping the original structure and footprint intact. ",
 			"heroImage": "v1620324755/Newberger%20and%20Associates/baxter-winery-10_mbxyst.jpg",
 			"portfolioImages": [				
-				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-before02_l2pw2q.jpg", "position": "bottom"},
-				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-after02_vjoqb7.jpg", "position": "bottom"},
 				{ "image": "v1620324762/Newberger%20and%20Associates/baxter-winery-07_vbauvi.jpg"},
 				{ "image": "v1620324738/Newberger%20and%20Associates/baxter-winery-05_pgwsgb.jpg"},
+				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-before02_l2pw2q.jpg", "position": "bottom"},
+				{ "image": "v1635897087/Newberger%20and%20Associates/baxter-after02_vjoqb7.jpg", "position": "bottom"},
 				{ "image": "v1620324742/Newberger%20and%20Associates/baxter-winery-03_zdcfmh.jpg"},
 				{ "image": "v1620324719/Newberger%20and%20Associates/baxter-winery-01_mznmx6.jpg"}
 			]

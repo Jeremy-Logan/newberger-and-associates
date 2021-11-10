@@ -16,6 +16,7 @@ const Project = (props) => {
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 								props.portfolioImages[0].image
 							}
+							alt={`featured-project-image-${props.path}`}
 						/>
 					</Link>
 				</div>
@@ -52,6 +53,7 @@ const Project = (props) => {
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 								props.portfolioImages[0].image
 							}
+							alt={`featured-project-image-${props.path}`}
 						/>
 					</Link>
 				</div>
@@ -75,6 +77,7 @@ const ProjectFlipped = (props) => {
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 								props.portfolioImages[0].image
 							}
+							alt={`featured-project-image-${props.path}`}
 						/>
 					</Link>
 				</div>

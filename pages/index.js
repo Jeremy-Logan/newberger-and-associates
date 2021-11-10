@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>
+			<main lang="en">
 				<motion.div
 					initial={{ opacity: 0.2 }}
 					animate={{ opacity: 1 }}
@@ -24,6 +24,7 @@ export default function Home() {
 						objectFit='cover'
 						className='opacity-50'
 						placeholder='blur'
+						alt='hero-image'
 					/>
 
 					<div className='absolute pt-2 md:pt-24 pl-[10vw] w-[80vw] z-10 text-white'>
@@ -53,6 +54,7 @@ export default function Home() {
 							objectFit='cover'
 							placeholder='blur'
 							blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620326973/Newberger%20and%20Associates/braverman-01_g5m0zc.jpg'
+							alt='featured-image'
 						/></div>
 					</motion.div></div>
 				</motion.div>

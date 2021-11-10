@@ -181,6 +181,7 @@ const Project = (props) => {
 							layout='fill'
 							objectFit='cover'
 							placeholder='blur'
+							alt={`featured-project-hero-image${props.path}`}
 							blurDataURL={
 								'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 								props.heroImage
@@ -230,7 +231,8 @@ const Project = (props) => {
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.portfolioImages[0].image
-								}
+									
+								}alt={`featured-project-image-${props.path}`}
 							/>
 						</Link>
 					</div>
@@ -244,7 +246,8 @@ const Project = (props) => {
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.portfolioImages[2].image
-								}
+									
+								}alt={`featured-project-image-${props.path}`}
 							/>
 						</Link>
 					</div>
@@ -277,6 +280,7 @@ const ProjectFlipped = (props) => {
 								layout='fill'
 								objectFit='cover'
 								placeholder='blur'
+								alt={`featured-project-hero-image${props.path}`}
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.heroImage
@@ -298,11 +302,12 @@ const ProjectFlipped = (props) => {
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.portfolioImages[0].image
-								}
+									
+								}alt={`featured-project-image-${props.path}`}
 							/>
 						</div>
 					</Link>
-					<div className='flex justify-center md:justify-start md:pl-36 py-16 md:py-24 col-span-2 row-span-1 z-50'>
+					<div className='flex justify-center md:justify-start md:pl-36 py-16 md:py-24 col-span-2 row-span-1 '>
 						<div className='text-left'>
 							<h3 className='text-md font-semibold tracking-wider mr-2 mb-4 md:text-left text-right'>
 								{props.category}
@@ -332,7 +337,8 @@ const ProjectFlipped = (props) => {
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.portfolioImages[1].image
-									}
+								}
+									alt={`featured-project-image-${props.path}`}
 								/>
 							</Link>
 						</div>
@@ -348,7 +354,8 @@ const ProjectFlipped = (props) => {
 								blurDataURL={
 									'https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/' +
 									props.portfolioImages[2].image
-								}
+									
+								}alt={`featured-project-image-${props.path}`}
 									
 								/>
 							</Link>

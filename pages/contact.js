@@ -16,7 +16,7 @@ export default function Contact() {
 					<link rel='icon' href='/favicon.ico' />
 				</Head>
 
-				<main>
+				<main lang="en">
 				<motion.div
 					initial={{ opacity: 0.2 }}
 					animate={{ opacity: 1 }}

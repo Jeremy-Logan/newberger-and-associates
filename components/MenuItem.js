@@ -26,7 +26,7 @@ export const MenuItem = ({ href, children }) => {
 	const router = useRouter()
 
 	return (
-		<motion.li variants={variants}>
+		<motion.li variants={variants} role='menuitem'>
 			<motion.div className='z-10 overflow-hidden flex '>
 				{' '}
 				<h2
@@ -35,7 +35,7 @@ export const MenuItem = ({ href, children }) => {
 							? 'bg-yellow-500 text-white origin-left font-serif font-bold p-3 pb-4 ml-4 md:ml-48 lg:ml-16 text-3xl m:pl-0 xl:text-8xl lg:text-7xl md:text-6xl lg:mt-2 md:mt-2 transition duration-300 ease-in-out transform hover:scale-110'
 							: ' text-white origin-left font-serif font-bold p-3 ml-4 md:ml-48 lg:ml-16 text-3xl m:pl-0 xl:text-8xl lg:text-7xl md:text-6xl lg:mt-2 md:mt-2 transition duration-300 ease-in-out transform hover:scale-110'
 					}>
-					<Link href={href}>
+					<Link href={href} passHref>
 						{React.cloneElement(child, {
 							'aria-current':
 								router.pathname === href ? 'page' : null,

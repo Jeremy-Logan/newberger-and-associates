@@ -31,7 +31,9 @@ export const Menu = ({ toggle }) => {
 	const links = [{index: 0, href: '/', name:'Home'}, {index: 1, href: '/about', name:'About'}, {index: 2, href: '/projects', name:'Projects'}, {index: 3, href: '/contact', name:'Contact'}]
 
 	return (
-		<motion.div className='relative w-screen z-40'>
+		<motion.div id="menu-container"
+        aria-labelledby="menubutton"
+        role="menu" className='relative w-screen z-40'>
 			<motion.ul
 				className='pt-36 absolute origin-right right-0 w-6/12 md:w-8/12 bg-[#687C8B] h-screen'
 				variants={variants} onClick={toggle}>
@@ -40,6 +42,8 @@ export const Menu = ({ toggle }) => {
 						<MenuItem className='active:bg-yellow-500'
 							key={index}
 							href={link.href}
+							role="menuitem"
+							name={link.name}
 						><a>{link.name}</a></MenuItem>
 					</>
 				))}

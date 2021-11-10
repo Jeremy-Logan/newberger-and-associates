@@ -34,7 +34,7 @@ export const Menu = ({ toggle }) => {
 		<motion.div id="menu-container"
         aria-labelledby="menubutton"
         role="menu" className='relative w-screen z-40'>
-			<motion.ul
+			<motion.div
 				className='pt-36 absolute origin-right right-0 w-6/12 md:w-8/12 bg-[#687C8B] h-screen'
 				variants={variants} onClick={toggle}>
 				{links.map((link, index) => (
@@ -47,7 +47,7 @@ export const Menu = ({ toggle }) => {
 						><a>{link.name}</a></MenuItem>
 					</>
 				))}
-			</motion.ul>
+			</motion.div>
 		</motion.div>
 	)
 }

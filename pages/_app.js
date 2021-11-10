@@ -5,11 +5,11 @@ import Head from 'next/head'
 
 function Application({ Component, pageProps }) {
 	return (
-		<>
+		<div lang="en">
 			<Header />
 			<Component {...pageProps} />
 			<Footer />
-		</>
+		</div>
 	)
 }
 

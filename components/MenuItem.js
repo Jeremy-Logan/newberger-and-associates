@@ -26,7 +26,7 @@ export const MenuItem = ({ href, children }) => {
 	const router = useRouter()
 
 	return (
-		<motion.li variants={variants} role='menuitem'>
+		<motion.div variants={variants} role='menuitem'>
 			<motion.div className='z-10 overflow-hidden flex '>
 				{' '}
 				<h2
@@ -43,6 +43,6 @@ export const MenuItem = ({ href, children }) => {
 					</Link>
 				</h2>
 			</motion.div>
-		</motion.li>
+		</motion.div>
 	)
 }

@@ -32,6 +32,7 @@ export const NavPhoto = ({ toggle }) => {
 					objectFit='cover'
 					placeholder='blur'
 					blurDataURL='https://res.cloudinary.com/the-color-mill/image/upload/t_placeholder/v1620327406/Newberger%20and%20Associates/brotherton-05_fwt9l9.jpg'
+					alt='menu-image'
 				/></div>
 			</motion.div>
 		</motion.div>

@@ -9,6 +9,7 @@ export default function About() {
 			<div className='min-h-screen'>
 				<Head>
 					<title>Newberger & Associates | About Us</title>
+					<meta property="og:title" content='Newberger & Associates | About Us' key="title" />
 					<link rel='icon' href='/favicon.ico' />
 				</Head>
 

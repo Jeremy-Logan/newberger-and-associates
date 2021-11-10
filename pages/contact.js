@@ -13,6 +13,7 @@ export default function Contact() {
 			<div className='min-h-screen'>
 				<Head>
 					<title>Newberger & Associates | Contact Us</title>
+					<meta property="og:title" content='Newberger & Associates | Contact Us' key="title" />
 					<link rel='icon' href='/favicon.ico' />
 				</Head>
 

@@ -58,6 +58,7 @@ function Project({ project }) {
 		<div>
 			<Head>
 				<title>Newberger & Associates | {project.title}</title>
+				<meta property="og:title" content={`Newberger & Associates | ${project.title}`} key="title" />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main lang="en">

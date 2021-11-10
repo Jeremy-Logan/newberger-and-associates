@@ -10,6 +10,7 @@ export default function Projects() {
 		<>
 			<Head>
 				<title>Newberger & Associates | Projects</title>
+				<meta property="og:title" content='Newberger & Associates | Projects' key="title" />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main lang="en">

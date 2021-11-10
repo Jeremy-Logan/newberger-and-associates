@@ -9,6 +9,7 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>Newberger & Associates</title>
+				<meta property="og:title" content='Newberger & Associates' key="title" />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 

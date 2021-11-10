@@ -60,6 +60,8 @@ function Project({ project }) {
 				<title>Newberger & Associates | {project.title}</title>
 				<meta property="og:title" content={`Newberger & Associates | ${project.title}`} key="title" />
 				<link rel='icon' href='/favicon.ico' />
+				<meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<main lang="en">
 				<motion.div

@@ -12,6 +12,8 @@ export default function Projects() {
 				<title>Newberger & Associates | Projects</title>
 				<meta property="og:title" content='Newberger & Associates | Projects' key="title" />
 				<link rel='icon' href='/favicon.ico' />
+				<meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<main lang="en">
 				<motion.div

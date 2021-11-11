@@ -1,32 +1,33 @@
+
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import {
-	useNetlifyForm,
-	NetlifyFormProvider,
-	NetlifyFormComponent,
-	Honeypot,
-} from 'react-netlify-forms'
-import { useForm } from 'react-hook-form'
+// import {
+// 	useNetlifyForm,
+// 	NetlifyFormProvider,
+// 	NetlifyFormComponent,
+// 	Honeypot,
+// } from 'react-netlify-forms'
+// import { useForm } from 'react-hook-form'
 
 export default function Contact() {
-	const { register, handleSubmit, reset, errors } = useForm({
-		mode: 'onBlur',
-	})
-	const netlify = useNetlifyForm({
-		name: 'react-hook-form',
-		action: '/thanks',
-		honeypotName: 'bot-field',
-		onSuccess: (response, context) => {
-			console.log('Successfully sent form data to Netlify Server')
-		},
-	})
-	const onSubmit = (data) => netlify.handleSubmit(null, data)
+	// const { register, handleSubmit, reset, errors } = useForm({
+	// 	mode: 'onBlur',
+	// })
+	// const netlify = useNetlifyForm({
+	// 	name: 'react-hook-form',
+	// 	action: '/thanks',
+	// 	honeypotName: 'bot-field',
+	// 	onSuccess: (response, context) => {
+	// 		console.log('Successfully sent form data to Netlify Server')
+	// 	},
+	// })
+	// const onSubmit = (data) => netlify.handleSubmit(null, data)
 
 	const EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i
 
 	return (
-		<NetlifyFormProvider {...netlify}>
+		<>
 			<div className='min-h-screen'>
 				<Head>
 					<title>Newberger & Associates | Contact Us</title>
@@ -63,15 +64,105 @@ export default function Contact() {
 									{' '}
 									Let's talk. 707.961.0911
 								</h2>
-								<h3 className='text-xl mb-2'>
-									Tell us a little about your project.
-								</h3>
-								<input
+								
+								<div className='py-6 px-6 sm:px-4 lg:col-span-2 '>
+									<h3 className='text-lg font-medium text-warm-gray-900'>
+										Tell us a little about your project.
+									</h3>
+									
+									<form
+										action='#'
+										method='POST'
+										name='contact'
+										className='mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8'>
+										<input
 									type='hidden'
 									name='form-name'
 									value='contact'
-								/>
-								<div className={'flex '}>
+								/><div>
+											<label
+												htmlFor='first-name'
+												
+											/>
+											<div className='mt-1'>
+												<input
+													type='text'
+													name='first-name'
+													id='first-name'
+													autoComplete='given-name'
+													required
+													placeholder='First Name*'
+														className={
+															'py-1 border-solid border-2  border-gray-600  pl-2 w-full flex-auto'
+														}
+												/>
+											</div>
+										</div>
+										<div>
+											<label
+												htmlFor='last-name'
+												/>
+											<div className='mt-1 '>
+												<input
+													type='text'
+													name='last-name'
+													id='last-name'
+													required
+													autoComplete='family-name'
+													placeholder='Last Name*'
+														className={
+															'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
+														}/>
+											</div>
+										</div>
+										<div className='col-span-2'>
+											<label
+												htmlFor='email'
+												/>
+											<div className='mt-1'>
+												<input
+													id='email'
+													name='email'
+													type='email'
+													required
+													autoComplete='email'
+													placeholder='Email Address*'
+												className={
+															'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
+														}/>
+											</div>
+										</div>
+										
+										<div className='sm:col-span-2'>
+											<div className='flex justify-between'>
+												<label
+													htmlFor='message'
+													/>
+											</div>
+											<div className='mt-1'>
+												<textarea
+													id='message'
+													name='message'
+													rows={4}
+													placeholder='Property address and project description'
+													className={
+														'py-1 border-solid border-2  border-gray-600 w-full  pl-2'
+													}
+													defaultValue={''}
+												/>
+											</div>
+										</div>
+										<div className='sm:col-span-2 sm:flex sm:justify-start'>
+											<button
+												type='submit'
+												className='bg-yellow-500 text-gray-800 font-semibold px-8 py-2 '>
+												Send
+											</button>
+										</div>
+									</form>
+								</div>
+
+								{/* <div className={'flex '}>
 									<NetlifyFormComponent
 										onSubmit={handleSubmit(onSubmit)}
 										className={
@@ -161,12 +252,12 @@ export default function Contact() {
 											
 										</div>
 									</NetlifyFormComponent>
-								</div>
+								</div>*/}
 							</div>
 						</div>
 					</motion.div>
 				</main>
 			</div>
-		</NetlifyFormProvider>
+		</>
 	)
 }

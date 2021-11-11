@@ -65,8 +65,8 @@ export default function Contact() {
 											value='contact'
 										/>
 										<div>
-											<label htmlFor='firstName'>
-											<div className='mt-1'>
+											
+											<div className='mt-1'><label htmlFor='firstName'>
 												<input
 													type='text'
 													name='firstName'
@@ -77,12 +77,12 @@ export default function Contact() {
 													className={
 														'py-1 border-solid border-2  border-gray-600  pl-2 w-full flex-auto'
 													}
-												/>
-											</div></label>
+												/></label>
+											</div>
 										</div>
 										<div>
-											<label htmlFor='lastName'>
-											<div className='mt-1 '>
+											
+											<div className='mt-1 '><label htmlFor='lastName'>
 												<input
 													type='text'
 													name='lastName'
@@ -93,12 +93,12 @@ export default function Contact() {
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
 													}
-												/>
-											</div></label>
+												/></label>
+											</div>
 										</div>
 										<div className='col-span-2'>
-											<label htmlFor='email'>
-											<div className='mt-1'>
+											
+											<div className='mt-1'><label htmlFor='email'>
 												<input
 													id='email'
 													name='email'
@@ -109,15 +109,15 @@ export default function Contact() {
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
 													}
-												/>
-											</div></label>
+												/></label>
+											</div>
 										</div>
 
 										<div className='sm:col-span-2'>
 											
-												<label htmlFor='message'>
+												
 											
-											<div className='mt-1'>
+											<div className='mt-1'><label htmlFor='message'>
 												<textarea
 													id='message'
 													name='message'
@@ -128,9 +128,9 @@ export default function Contact() {
 														'py-1 border-solid border-2  border-gray-600 w-full  pl-2'
 													}
 													defaultValue={''}
-												/>
+												/></label>
 											</div>
-											</label>
+											
 										</div>
 										<div className='sm:col-span-2 sm:flex sm:justify-start'>
 											<button

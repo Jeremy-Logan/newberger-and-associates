@@ -87,7 +87,7 @@ export default function Contact() {
 											<div className='mt-1'>
 												<input
 													type='text'
-													name='first-name'
+													name='firstName'
 													id='first-name'
 													autoComplete='given-name'
 													required
@@ -105,7 +105,7 @@ export default function Contact() {
 											<div className='mt-1 '>
 												<input
 													type='text'
-													name='last-name'
+													name='lastName'
 													id='last-name'
 													required
 													autoComplete='family-name'
@@ -143,6 +143,7 @@ export default function Contact() {
 												<textarea
 													id='message'
 													name='message'
+													type='text'
 													rows={4}
 													placeholder='Property address and project description'
 													className={

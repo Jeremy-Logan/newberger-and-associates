@@ -1,29 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-// import {
-// 	useNetlifyForm,
-// 	NetlifyFormProvider,
-// 	NetlifyFormComponent,
-// 	Honeypot,
-// } from 'react-netlify-forms'
-// import { useForm } from 'react-hook-form'
+
 
 export default function Contact() {
-	// const { register, handleSubmit, reset, errors } = useForm({
-	// 	mode: 'onBlur',
-	// })
-	// const netlify = useNetlifyForm({
-	// 	name: 'react-hook-form',
-	// 	action: '/thanks',
-	// 	honeypotName: 'bot-field',
-	// 	onSuccess: (response, context) => {
-	// 		console.log('Successfully sent form data to Netlify Server')
-	// 	},
-	// })
-	// const onSubmit = (data) => netlify.handleSubmit(null, data)
+	
 
-	const EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i
+	
 
 	return (
 		<>
@@ -82,12 +65,12 @@ export default function Contact() {
 											value='contact'
 										/>
 										<div>
-											<label htmlFor='first-name' />
+											<label htmlFor='firstName'>
 											<div className='mt-1'>
 												<input
 													type='text'
 													name='firstName'
-													id='first-name'
+													id='firstName'
 													autoComplete='given-name'
 													required
 													placeholder='First Name*'
@@ -95,44 +78,45 @@ export default function Contact() {
 														'py-1 border-solid border-2  border-gray-600  pl-2 w-full flex-auto'
 													}
 												/>
-											</div>
+											</div></label>
 										</div>
 										<div>
-											<label htmlFor='last-name' />
+											<label htmlFor='lastName'>
 											<div className='mt-1 '>
 												<input
 													type='text'
 													name='lastName'
-													id='last-name'
+													id='lastName'
 													required
-
+													autoComplete='family-name'
 													placeholder='Last Name*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
 													}
 												/>
-											</div>
+											</div></label>
 										</div>
 										<div className='col-span-2'>
-											<label htmlFor='email' />
+											<label htmlFor='email'>
 											<div className='mt-1'>
 												<input
 													id='email'
 													name='email'
 													type='email'
-
+													required
+													autoComplete='email'
 													placeholder='Email Address*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
 													}
 												/>
-											</div>
+											</div></label>
 										</div>
 
 										<div className='sm:col-span-2'>
-											<div className='flex justify-between'>
-												<label htmlFor='message' />
-											</div>
+											
+												<label htmlFor='message'>
+											
 											<div className='mt-1'>
 												<textarea
 													id='message'
@@ -146,6 +130,7 @@ export default function Contact() {
 													defaultValue={''}
 												/>
 											</div>
+											</label>
 										</div>
 										<div className='sm:col-span-2 sm:flex sm:justify-start'>
 											<button
@@ -157,97 +142,7 @@ export default function Contact() {
 									</form>
 								</div>
 
-								{/* <div className={'flex '}>
-									<NetlifyFormComponent
-										onSubmit={handleSubmit(onSubmit)}
-										className={
-											'flex flex-col w-full justify-center items-center'
-										}>
-										<input
-											type='hidden'
-											name='form-name'
-											value='contact'
-										/>
-										<div className={'text-black '}>
-											<Honeypot />
-											{netlify.success && (
-												<p>Thanks for contacting us!</p>
-											)}
-											{netlify.error && (
-												<p>
-													Sorry, we could not reach
-													our servers. Please try
-													again later.
-												</p>
-											)}
-											<div
-												className={
-													'flex justify-between'
-												}
-												>
-												<label
-													htmlFor='firstName'
-													className={'w-full'}>
-													<input
-														type='text'
-														name='firstName'
-														id='firstName'
-														placeholder='First Name'
-														className={
-															'border-solid border-2  border-gray-600 my-2 pl-2 w-full flex-auto'
-														}
-													/>
-												</label>
-												<label
-													htmlFor='lastName'
-													className='ml-2 w-full'
-													>
-													<input
-														type='text'
-														name='lastName'
-														id='lastName'
-														placeholder='Last Name'
-														className={
-															'border-solid border-2  border-gray-600  my-2 pl-2 flex-auto w-full'
-														}
-													/>
-												</label>
-											</div>
-											<label htmlFor='email'>
-												
-											
-											<input
-												type='email'
-												name='email'
-												id='email'
-												placeHolder='Email Address'
-												className={
-															'border-solid border-2  border-gray-600  my-2 pl-2 flex-auto w-full'
-														}
-											/>
-											</label>
-											<label htmlFor='question'>
-												<textarea
-													
-													name='question'
-													id='question'
-													rows='3'
-													placeholder='Property address and project description'
-													className={
-														'border-solid border-2  border-gray-600 w-full my-2 pl-2'
-													}
-												/>
-												
-											</label>
-											<button
-												type='submit'
-												className='bg-yellow-500 text-gray-800 font-semibold px-8 py-2 mx-2 m-4'>
-												Send
-											</button>
-											
-										</div>
-									</NetlifyFormComponent>
-								</div>*/}
+								
 							</div>
 						</div>
 					</motion.div>

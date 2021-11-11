@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -64,26 +63,26 @@ export default function Contact() {
 									{' '}
 									Let's talk. 707.961.0911
 								</h2>
-								
+
 								<div className='py-6 px-6 sm:px-4 lg:col-span-2 '>
 									<h3 className='text-lg font-medium text-warm-gray-900'>
 										Tell us a little about your project.
 									</h3>
-									
+
 									<form
-										action='#'
-										method='POST'
+										action='/'
+										method='post'
 										name='contact'
+										data-netlify='true'
+										data-netlify-honeypot='bot-field'
 										className='mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8'>
 										<input
-									type='hidden'
-									name='form-name'
-									value='contact'
-								/><div>
-											<label
-												htmlFor='first-name'
-												
-											/>
+											type='hidden'
+											name='form-name'
+											value='contact'
+										/>
+										<div>
+											<label htmlFor='first-name' />
 											<div className='mt-1'>
 												<input
 													type='text'
@@ -92,16 +91,14 @@ export default function Contact() {
 													autoComplete='given-name'
 													required
 													placeholder='First Name*'
-														className={
-															'py-1 border-solid border-2  border-gray-600  pl-2 w-full flex-auto'
-														}
+													className={
+														'py-1 border-solid border-2  border-gray-600  pl-2 w-full flex-auto'
+													}
 												/>
 											</div>
 										</div>
 										<div>
-											<label
-												htmlFor='last-name'
-												/>
+											<label htmlFor='last-name' />
 											<div className='mt-1 '>
 												<input
 													type='text'
@@ -110,15 +107,14 @@ export default function Contact() {
 													required
 													autoComplete='family-name'
 													placeholder='Last Name*'
-														className={
-															'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
-														}/>
+													className={
+														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
+													}
+												/>
 											</div>
 										</div>
 										<div className='col-span-2'>
-											<label
-												htmlFor='email'
-												/>
+											<label htmlFor='email' />
 											<div className='mt-1'>
 												<input
 													id='email'
@@ -127,17 +123,16 @@ export default function Contact() {
 													required
 													autoComplete='email'
 													placeholder='Email Address*'
-												className={
-															'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
-														}/>
+													className={
+														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
+													}
+												/>
 											</div>
 										</div>
-										
+
 										<div className='sm:col-span-2'>
 											<div className='flex justify-between'>
-												<label
-													htmlFor='message'
-													/>
+												<label htmlFor='message' />
 											</div>
 											<div className='mt-1'>
 												<textarea

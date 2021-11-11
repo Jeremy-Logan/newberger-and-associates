@@ -105,7 +105,7 @@ export default function Contact() {
 													name='lastName'
 													id='last-name'
 													required
-													autoComplete='family-name'
+
 													placeholder='Last Name*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
@@ -120,8 +120,7 @@ export default function Contact() {
 													id='email'
 													name='email'
 													type='email'
-													required
-													autoComplete='email'
+
 													placeholder='Email Address*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'

@@ -70,7 +70,7 @@ export default function Contact() {
 									</h3>
 
 									<form
-										action='/'
+										action='#'
 										method='post'
 										name='contact'
 										data-netlify='true'

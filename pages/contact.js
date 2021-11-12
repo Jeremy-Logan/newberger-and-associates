@@ -70,8 +70,7 @@ export default function Contact() {
 												<input
 													type='text'
 													name='firstName'
-													id='firstName'
-													autoComplete='given-name'
+													
 													required
 													placeholder='First Name*'
 													className={
@@ -86,9 +85,9 @@ export default function Contact() {
 												<input
 													type='text'
 													name='lastName'
-													id='lastName'
+													
 													required
-													autoComplete='family-name'
+													
 													placeholder='Last Name*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
@@ -100,11 +99,11 @@ export default function Contact() {
 											
 											<div className='mt-1'><label htmlFor='email'>
 												<input
-													id='email'
+													
 													name='email'
 													type='email'
 													required
-													autoComplete='email'
+													
 													placeholder='Email Address*'
 													className={
 														'py-1 border-solid border-2  border-gray-600   pl-2 flex-auto w-full'
@@ -119,7 +118,7 @@ export default function Contact() {
 											
 											<div className='mt-1'><label htmlFor='message'>
 												<textarea
-													id='message'
+													
 													name='message'
 													type='text'
 													rows={4}

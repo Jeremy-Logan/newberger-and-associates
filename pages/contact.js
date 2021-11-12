@@ -62,7 +62,7 @@ export default function Contact() {
 										<input
 											type='hidden'
 											name='form-name'
-											value='contact'
+											value='contactForm'
 										/>
 										<div>
 											

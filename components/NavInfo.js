@@ -27,6 +27,7 @@ export const NavInfo = ({ toggle }) => {
 					<h3 className='mb-2'>FORT BRAGG, CA 95437</h3>
 					<h3 className='mb-2'>707.961.0911</h3>
 					<h3 className='mb-2'>INFO@LSNDESIGN.COM</h3>
+					<h3>CA LIC. C-31047</h3>
 				</div>
 			</motion.div>
 		</motion.div>

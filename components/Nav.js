@@ -32,7 +32,7 @@ export default function Nav() {
 		<>
 			<motion.nav
 				className='w-screen z-50 fixed'
-				// initial={false}
+				initial='closed'
 				animate={isOpen ? 'open' : 'closed'}
 				// custom={height}
 				ref={containerRef}>

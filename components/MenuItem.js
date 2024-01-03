@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './MenuItem.module.css'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -25,9 +26,7 @@ export const MenuItem = ({ href, children }) => {
 	const router = useRouter()
 
 	return (
-		<motion.div variants={variants} role='menuitem'
-		initial='closed'
-		>
+		<motion.div variants={variants} role='menuitem'>
 			<motion.div className='z-10 overflow-hidden flex '>
 				{' '}
 				<h2

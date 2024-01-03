@@ -16,7 +16,7 @@ export default function Footer() {
         <h3>100 E MANZANITA STREET, SUITE C</h3>
         <h3>FORT BRAGG, CA  95437</h3>
         <h3>707.357.0615</h3>
-        <h3>TODD@LSNDESIGN.COM</h3>
+          <h3>INFO@NEWBERGER-ARCHITECT.COM</h3>
         <h3>CA LIC. C-31047</h3>
         </div>
       </footer>

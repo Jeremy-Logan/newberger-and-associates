@@ -44,7 +44,7 @@ export default function Contact() {
 								</h2>
 								<h2 className='md:text-2xl text-xl font-sans font-semibold text-center mb-8 md:mb-12'>
 									{' '}
-									Let's talk. 707.961.0911
+									Let's talk. 707.357.0615
 								</h2>
 
 								<div className='py-6 px-6 sm:px-4 lg:col-span-2 '>

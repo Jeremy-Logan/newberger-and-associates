@@ -23,10 +23,10 @@ export const NavInfo = ({ toggle }) => {
 				onClick={toggle}>
 				<div className='lg:px-20 px-2 text-white text-right text-xs md:text-lg xl:text-2xl font-sans'>
 				<h3 className='mb-2'>NEWBERGER & ASSOCIATES</h3>
-					<h3 className='mb-2'>435 NORTH MAIN STREET</h3>
+					<h3 className='mb-2'>100 E MANZANITA STREET, SUITE C</h3>
 					<h3 className='mb-2'>FORT BRAGG, CA 95437</h3>
-					<h3 className='mb-2'>707.961.0911</h3>
-					<h3 className='mb-2'>INFO@LSNDESIGN.COM</h3>
+					<h3 className='mb-2'>707.357.0615</h3>
+					<h3 className='mb-2'>TODD@LSNDESIGN.COM</h3>
 					<h3>CA LIC. C-31047</h3>
 				</div>
 			</motion.div>

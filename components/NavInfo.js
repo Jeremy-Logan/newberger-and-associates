@@ -19,7 +19,6 @@ export const NavInfo = ({ toggle }) => {
 			<motion.div
 				className='pt-12 center absolute origin-bottom top-0 left-0 w-6/12 md:w-4/12 bg-[#8B8888] h-[60vh] mt-[40vh]'
 				variants={variants}
-				initial='closed'
 				onClick={toggle}>
 				<div className='lg:px-20 px-2 text-white text-right text-xs md:text-lg xl:text-2xl font-sans'>
 				<h3 className='mb-2'>NEWBERGER & ASSOCIATES</h3>

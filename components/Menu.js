@@ -36,7 +36,7 @@ export const Menu = ({ toggle }) => {
         role="menu" className='relative w-screen z-40'>
 			<motion.div
 				className='pt-36 absolute origin-right right-0 w-6/12 md:w-8/12 bg-[#687C8B] h-screen'
-				variants={variants} initial='closed' onClick={toggle}>
+				variants={variants} onClick={toggle}>
 				{links.map((link, index) => (
 					<>
 						<MenuItem className='active:bg-yellow-500'
